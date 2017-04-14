@@ -23,9 +23,9 @@ body {
   font-size:50px;
   width:1000px;
 }
-.button{
+/*.button{
   visibility: hidden;
-}
+}*/
 .button:before{
   content:"zac is still great";
 }
