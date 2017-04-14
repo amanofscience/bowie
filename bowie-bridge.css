@@ -13,12 +13,11 @@ body {
 
 /*  Navigation  */
 
+
 .nav-link a.text, .nav-link span.text {
-  text-transform: uppercase;
   font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
   font-size: 14px;
   font-weight: 500;
-  color: #FFF;
 }
 
 
