@@ -1,7 +1,7 @@
 /*  Body  */
 
 body {
-  background-color: purple;
+  background-color: yellow;
 }
 
 #page-left-shadow {
@@ -9,6 +9,15 @@ body {
 }
 #page-right-shadow {
   display: none;
+}
+.metadata:before{
+  content: "zac is great";
+  height:700px;
+  background-color:white;
+  color:red;
+  padding:50px;
+  font-size:50px;
+  width:1000px;
 }
 
 /*  Navigation  */
