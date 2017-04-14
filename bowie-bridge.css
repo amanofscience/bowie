@@ -1,0 +1,119 @@
+/*  Body  */
+
+#page-left-shadow {
+  display: none;
+}
+#page-right-shadow {
+  display: none;
+}
+
+/*  Navigation  */
+
+.nav-link a.text, .nav-link span.text {
+  text-transform: uppercase;
+  font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFF;
+}
+
+
+body #wrap #inner-wrap div#banner .page-width .header #logo div {
+  background-repeat: no-repeat;
+  background-position: -258px -353px;
+  height: 20px;
+  width: 54px;
+}
+
+/*  Masthead  */
+
+#masthead #key-art ul.slides li div.metadata .headline .shadow {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 48px;
+  visibility: hidden;
+  line-height: 1.1;
+}
+
+#masthead #key-art ul.slides li div.metadata .headline .origin {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+#masthead #key-art ul.slides li div.metadata .description .shadow {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  visibility: hidden;
+  line-height: 1.35;
+}
+
+#masthead #key-art ul.slides li div.metadata .description .origin {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+
+#masthead #key-art ul.slides li div.metadata {
+  text-shadow: 0px;
+}
+
+#masthead #key-art ul.slides li div.metadata .title .shadow {
+   font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+#masthead #key-art ul.slides li div.metadata .title .origin {
+   font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+#masthead #key-art ul.slides li div.metadata .promotional-text .shadow {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  visibility: hidden;
+  line-height: 1.25;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-style: normal;
+  font-size: 14px;
+}
+
+#masthead #key-art ul.slides li div.metadata .promotional-text .origin {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.25;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-style: normal;
+  font-size: 14px;
+}
+
+/*  Trays   */
+
+.tray h3 a {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  color: black !important;
+  text-shadow: none !important;
+}
+
+/*  Show    */
+
+#show-description .text-container .details-info-static {
+ font-size: 16px;
+ line-height: 1.5;
+}
+
+#show-description .text-container .details-info-static .text-break h1, #show-description .text-container .details-info-static .text-truncate h1, #show-description .text-container .details-info-static .text-rest h1 {
+ font-size: 16px;
+}
+
+#show-description #smart-video .header-title {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1.2;
+}
