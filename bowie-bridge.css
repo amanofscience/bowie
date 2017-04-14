@@ -37,7 +37,6 @@ body {
     cursor: pointer;
     text-align: center;
     border: solid;
-    visibility: hidden;
     border-width: 1px;
     display: inline-block;
     vertical-align: middle;
