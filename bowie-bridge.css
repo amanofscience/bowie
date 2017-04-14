@@ -1,7 +1,11 @@
 /*  Body  */
 
 body {
-  background-color: yellow;
+  background-color: orange;
+}
+
+#page-middle-shadow {
+  display: none;
 }
 
 #page-left-shadow {
