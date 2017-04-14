@@ -1,5 +1,9 @@
 /*  Body  */
 
+body {
+  background-color: red;
+}
+
 #page-left-shadow {
   display: none;
 }
