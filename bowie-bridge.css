@@ -1,7 +1,7 @@
 /*  Body  */
 
 body {
-  background-color: chocolate;
+  background-color: pink;
 }
 
 #page-left-shadow {
@@ -19,6 +19,19 @@ body {
   font-size:50px;
   width:1000px;
 }
+
+body #wrap #page-right-shadow {
+    right: 0px;
+    top: 0px;
+    /* position: absolute; */
+    background-position: -24px 0;
+    height: 1px;
+    width: 8px;
+    background-repeat: repeat-y;
+    width: 8px;
+    height: 100%;
+}
+
 
 /*  Navigation  */
 
