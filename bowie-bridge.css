@@ -1,3 +1,7 @@
+@import url(jess.css);
+@import url(nat.css);
+@import url(zac_override.css);
+
 /*  Body  */
 
 body {
@@ -8,33 +12,6 @@ body {
 }
 #page-right-shadow {
   display: none;
-}
-.metadata:before{
-  content: "zac is great";
-  height:700px;
-  background-color:white;
-  color:red;
-  padding:50px;
-  font-size:50px;
-  width:1000px;
-}
-.button{
-  visibility: hidden;
-}
-.button:before{
-  content:"zac is still great";
-}
-
-body #wrap #page-right-shadow {
-    right: 0px;
-    top: 0px;
-    /* position: absolute; */
-    background-position: -24px 0;
-    height: 1px;
-    width: 8px;
-    background-repeat: repeat-y;
-    width: 8px;
-    height: 100%;
 }
 
 
