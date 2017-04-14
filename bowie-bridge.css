@@ -11,7 +11,7 @@ body {
   display: none;
 }
 .metadata:before{
-  content: "zac is great!";
+  content: "zac is great";
   height:700px;
   background-color:white;
   color:red;
