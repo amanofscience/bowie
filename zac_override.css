@@ -1,5 +1,5 @@
-body{background-color:red;}
 
+/*
 .metadata:before{
   content: "zac is great";
   height:700px;
@@ -29,4 +29,12 @@ body{background-color:red;}
     height: 39px;
     line-height: 39px;
     font-size: 18px;
+}*/
+
+div.dropdown .drop-wrapper .viewport .overview{
+  background-color:white;
 }
+.nav-link a.text:hover, .nav-link span.text:hover{
+      color: #5ba576;
+}
+a:hover{    color: #5ba576;}
