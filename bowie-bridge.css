@@ -1,20 +1,29 @@
-@import url(jess.css);
-@import url(nat.css);
-@import url(zac_override.css);
-
 /*  Body  */
 
 body {
+  background-color: #FCFCFC;
 }
 
 #page-left-shadow {
   display: none;
 }
+
 #page-right-shadow {
   display: none;
 }
 
 
+body #wrap #page-right-shadow {
+    right: 0px;
+    top: 0px;
+    /* position: absolute; */
+    background-position: -24px 0;
+    height: 1px;
+    width: 8px;
+    background-repeat: repeat-y;
+    width: 8px;
+    height: 100%;
+}
 
 
 /*  Navigation  */
