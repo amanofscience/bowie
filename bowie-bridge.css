@@ -117,7 +117,59 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
 
 /*  Trays   */
 
+.tray h3 a {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #1e1e1e;
+  text-shadow: none;
+}
 
+ div.item.size-1x1 div.thumbnail div.description {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+/*  Watchlist   */
+
+div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.headline {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.desc {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  color: #aeb4bf;
+}
+
+div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.desc.hover {
+  color: #35BD33;
+}
+
+div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.secondary {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  color: #aeb4bf;
+}
+
+/* Editorial Tray */
+
+div.tray div.item.editor div.editorial-panel {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+div.tray div.item.editor div.editorial-panel .title {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #1e1e1e;
+}
+
+div.tray div.item.editor div.editorial-panel .desc {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #5e6573;
+}
 
 /*  Show    */
 
