@@ -45,6 +45,10 @@ div.nav-container .nav-panel .menu a:hover, div.nav-container .nav-panel .menu .
 body.medium #tool-item-container .tool-bar{
   display:none;
 }
+body.large #tool-item-container .tool-bar {
+    width: 1426px;
+    display: none;
+    }
 
 
 /**logo**/
