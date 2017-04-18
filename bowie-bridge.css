@@ -7,8 +7,6 @@
 
 
 body {
-/*  background-color: red;
-*/  
 background-color: #FCFCFC;
 }
 
@@ -40,15 +38,12 @@ a.blue-link {
 a:hover {
 /*  color: #35BD33;
 */
-/*new hulu*/  
+/*new hulu*/
   color: #5ba576;
 }
 
 
 /*  Navigation  */
-
-
-
 
 
 body #wrap #inner-wrap div#banner .page-width .header #logo div {

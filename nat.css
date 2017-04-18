@@ -22,7 +22,7 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
     margin-bottom: 0px;
 }
 
-#masthead .right-arrow.hover .arrow-icon {
+#masthead {
     background-image: url(https://s3.amazonaws.com/uploads.hipchat.com/16288/4140895/t7U3xQ3T7fOZGUk/sprite1.png);
 
 }
@@ -39,6 +39,7 @@ div#referral-tab-container .refer-button {
 
 element.style {
 }
+
 #tool-item-container div.tool-bar .text {
     padding-top: 20px;
     line-height: 20px;
@@ -82,5 +83,14 @@ body #wrap #inner-wrap div#banner .page-width #search-container form#search-form
     text-shadow: 0px 0px 1px #aaaaaa;
     position: absolute;
     width: 800px !important;
-    bottom: 150px;
+    bottom: 100px;
+}
+
+element.style {
+}
+#tool-item-container div.tool-bar .follow-icons {
+    float: right;
+    margin-right: -10px;
+    padding-top: 20px;
+    padding-left: 12px;
 }
