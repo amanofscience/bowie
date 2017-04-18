@@ -1,6 +1,6 @@
 @import url(jess.css);
-/*@import url(nat.css);
-*/@import url(zac_override.css);
+@import url(nat.css);
+@import url(zac_override.css);
 
 
 /*  Body  */
@@ -38,7 +38,7 @@ a:hover {
 /*  color: #35BD33;
 */
 /*new hulu*/
-  color: #5ba576;
+  color: #2DBD9D;
 }
 
 

@@ -24,19 +24,19 @@ div.dropdown .drop-wrapper .viewport .overview{
 }
 /**nav dropdown list link hover**/
 div.nav-container .nav-panel .menu a:hover, div.nav-container .nav-panel .menu .sub a:hover{
-  color: #5ba576;
+  color: #2DBD9D;
 
 }
 .nav-link a.text:active, .nav-link span.text:active{
-      color: #5ba576;
+      color: #2DBD9D;
 }
 .nav-link a.text:hover, .nav-link span.text:hover{
-      color: #5ba576;
+      color: #2DBD9D;
 }
 
 /**weird state of not hover but not active*/
 .nav-link.active a.text, .nav-link.active span.text{
-  color: #5ba576; 
+  color: #2DBD9D; 
 }
 
 
