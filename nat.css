@@ -1,6 +1,7 @@
 div#footer {
     background: #fcfcfc;
-
+    /* position: relative; */
+    color: #AEB4BF;
 }
 
 
@@ -9,4 +10,63 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
   background-position: -258px -353px;
   height: 20px;
   width: 54px;
+}
+
+.tray.TYPE_S_ONE_ROW_NAV {
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ECEDF2;
+    border-top: 1px solid #ECEDF2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#masthead .right-arrow .arrow-icon {
+    background-image: url(https://s3.amazonaws.com/uploads.hipchat.com/16288/4140895/t7U3xQ3T7fOZGUk/sprite1.png);
+
+}
+
+div#referral-tab-container .refer-button {
+    background: #05AAA3;
+    color: #FFFFFF;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 3px;
+    /* letter-spacing: 2px; */
+}
+
+element.style {
+}
+#tool-item-container div.tool-bar .text {
+    padding-top: 20px;
+    line-height: 20px;
+    height: 20px;
+    float: right;
+    text-transform: uppercase;
+    color: #5E6573;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+}
+
+div.tray div.item div.badge-on-thumb.watchlist-count {
+    right: -3px;
+    top: -3px;
+    z-index: 10;
+    color: #FFFFFF;
+    font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 0 14px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    background: #05AAA3;
+
+
 }

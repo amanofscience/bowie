@@ -123,6 +123,11 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
   font-size: 14px;
 }
 
+.masthead-sprite, {
+background-image: url(https://s3.amazonaws.com/uploads.hipchat.com/16288/4140895/FA5rz1nqECW3wdg/sprite1.png);
+
+}
+
 /*  Trays   */
 
 .tray h3 a {
