@@ -38,3 +38,10 @@ div.nav-container .nav-panel .menu a:hover, div.nav-container .nav-panel .menu .
 .nav-link.active a.text, .nav-link.active span.text{
   color: #5ba576; 
 }
+
+
+
+/* taking out strange toolbar**/
+body.medium #tool-item-container .tool-bar{
+  display:none;
+}
