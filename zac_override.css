@@ -30,6 +30,13 @@
     line-height: 39px;
     font-size: 18px;
 }*/
+
+/**nav font styles*/
+.nav-link a.text, .nav-link span.text{
+  font-weight:300;
+}
+
+
 div.nav-container .nav-panel.dropdown.open{
   border:0px;
   background: rgba(255, 255, 255, 0);
