@@ -45,3 +45,10 @@ div.nav-container .nav-panel .menu a:hover, div.nav-container .nav-panel .menu .
 body.medium #tool-item-container .tool-bar{
   display:none;
 }
+
+
+/**logo**/
+body #wrap #inner-wrap div#banner .page-width .header #logo div{
+      background-image: url(file:///Applications/MAMP/htdocs/bowie/images/hulu_logo.png);
+
+}
