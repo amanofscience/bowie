@@ -1,7 +1,31 @@
 /*  Trays  */
+body {
+background-color: yellow !important;
+}
 
 .tray h3 a {
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
     color: #1e1e1e;
     text-shadow: none !important;
 }
+
+
+/*  Editorial Panel - Title  */
+div.editorial-panel .desc {
+    font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
+}
+
+
+/*  Editorial Panel - Description  */
+div.editorial-panel .desc {
+    font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
+}
+
+
+/*  Watchlist - Description  */
+div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.desc {
+    font-family: Graphik;
+}
+
+
+/*  Watchlist - Headline  */
