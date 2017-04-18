@@ -30,7 +30,10 @@
     line-height: 39px;
     font-size: 18px;
 }*/
-
+div.nav-container.nav-panel.dropdown.open{
+  border:0px
+  background: rgba(255, 255, 255, 0);
+}
 div.dropdown .drop-wrapper .viewport .overview{
   background-color:white;
   border-radius: 5px;
