@@ -39,7 +39,7 @@ div.nav-container .nav-panel.dropdown{
   background: rgba(255, 255, 255, 0);
 }
 div.dropdown .drop-wrapper .viewport .overview{
-  background-color:white;
+  background-color:#FCFCFC;
   border-radius: 5px;
 
 }
@@ -50,3 +50,4 @@ div.dropdown .drop-wrapper .viewport .overview{
       color: #5ba576;
 }
 a:hover{    color: #5ba576;}
+a:active {color: #5ba576;}
