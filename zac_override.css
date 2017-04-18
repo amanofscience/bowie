@@ -43,6 +43,11 @@ div.dropdown .drop-wrapper .viewport .overview{
   border-radius: 5px;
 
 }
+/**nav dropdown list link hover**/
+div.nav-container .nav-panel .menu a:hover, div.nav-container .nav-panel .menu .sub a:hover{
+  color: #5ba576;
+
+}
 .nav-link a.text:active, .nav-link span.text:active{
       color: #5ba576;
 }
