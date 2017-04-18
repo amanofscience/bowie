@@ -22,7 +22,7 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
     margin-bottom: 0px;
 }
 
-#masthead .right-arrow .arrow-icon {
+#masthead .right-arrow.hover .arrow-icon {
     background-image: url(https://s3.amazonaws.com/uploads.hipchat.com/16288/4140895/t7U3xQ3T7fOZGUk/sprite1.png);
 
 }
@@ -69,4 +69,18 @@ div.tray div.item div.badge-on-thumb.watchlist-count {
     background: #05AAA3;
 
 
+}
+
+body #wrap #inner-wrap div#banner .page-width #search-container form#search-form div.input-wrapper {
+    width: 218px;
+    height: 26px;
+    padding: 3px 3px 4px 3px;
+    background: url(/ns-huluguru/bg-search-bar-65f2da57ccdddd3b520b4027ed8ea6b3.png) no-repeat 0 0px;
+}
+
+#masthead #key-art ul.slides li div.metadata {
+    text-shadow: 0px 0px 1px #aaaaaa;
+    position: absolute;
+    width: 800px !important;
+    bottom: 150px;
 }
