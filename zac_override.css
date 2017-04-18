@@ -31,17 +31,20 @@
     font-size: 18px;
 }*/
 div.nav-container .nav-panel.dropdown.open{
-  border:0px
+  border:0px;
   background: rgba(255, 255, 255, 0);
 }
 div.nav-container .nav-panel.dropdown{
-  border:0px
+  border:0px;
   background: rgba(255, 255, 255, 0);
 }
 div.dropdown .drop-wrapper .viewport .overview{
   background-color:white;
   border-radius: 5px;
 
+}
+.nav-link a.text:active, .nav-link span.text:active{
+      color: #5ba576;
 }
 .nav-link a.text:hover, .nav-link span.text:hover{
       color: #5ba576;
