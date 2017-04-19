@@ -7,7 +7,7 @@
 
 /**new background for nav*/
 body #wrap #inner-wrap div#banner .banner-background .gradient-bg{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255,255,255,0.92);
     height: 60px;
     background-image: none;
     border-bottom: 1px solid #ecedf2;
@@ -52,7 +52,7 @@ body #wrap #inner-wrap div#banner .banner-background .semitransparent-bg span.te
 .nav-link a.text, .nav-link span.text {
   font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.5px;
   color: #526573;
 }
@@ -61,6 +61,7 @@ body #wrap #inner-wrap div#banner .banner-background .semitransparent-bg span.te
 div.nav-container .nav-panel.dropdown.open{
   border:0px;
   background: rgba(255, 255, 255, 0);
+
 }
 div.nav-container .nav-panel.dropdown{
   border:0px;
@@ -91,6 +92,9 @@ div.nav-container .nav-panel .menu a:hover, div.nav-container .nav-panel .menu .
 
 
 /* taking out strange toolbar**/
+body.small #tool-item-container .tool-bar{
+  display:none;
+}
 body.medium #tool-item-container .tool-bar{
   display:none;
 }
