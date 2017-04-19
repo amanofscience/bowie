@@ -1,4 +1,23 @@
 
+/***removing gradients**/
+body #wrap #inner-wrap div#banner.semitransparent .banner-background .gradient-bg{
+  display:none;
+}
+
+/***scroll stuff**/
+/*body #wrap #inner-wrap div#banner.semitransparent .banner-bg-wrapper {
+    height: 47px;
+}*/
+
+/*body #wrap #inner-wrap div#banner .banner-background .semitransparent-bg {
+    top: 0;
+    left: 0;
+    height: 60px;
+    background: rgb(213, 213, 213);
+}*/
+/*.z-index-layer-3, body #wrap #inner-wrap div#banner{
+  background: rgb(213, 213, 213);
+}*/
 
 /**nav font styles*/
 .nav-link a.text, .nav-link span.text {
