@@ -11,10 +11,10 @@ div#footer {
 }
 
 #masthead #key-art ul.slides li div.metadata.left{
-
+  width:100%;
 }
 #masthead #key-art ul.slides li div.metadata .headline .origin{
-    
+  width:100%;
 }
 
 body #wrap #inner-wrap div#banner .page-width .header #logo div {
