@@ -90,6 +90,13 @@ body #wrap #inner-wrap div#banner .page-width #search-container form#search-form
     background: url('http://localhost:8888/bowie/images/bg-search-bar-65f2da57ccdddd3b520b4027ed8ea6b3.png') no-repeat 0 0px;
 }
 
+@media (-webkit-min-device-pixel-ratio: 2) {
+  body #wrap #inner-wrap div#banner .page-width .header #logo div {
+
+  }
+}
+
+
 #masthead #key-art ul.slides li div.metadata {
     text-shadow: 0px 0px 1px #aaaaaa;
     position: absolute;
