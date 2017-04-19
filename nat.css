@@ -5,6 +5,13 @@ div#footer {
 }
 
 
+/***Width for cover story description***/
+#masthead #key-art ul.slides li div.metadata .description .origin{
+  width:75%;
+}
+
+
+
 body #wrap #inner-wrap div#banner .page-width .header #logo div {
   background-repeat: no-repeat;
   background-position: -258px -353px;

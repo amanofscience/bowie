@@ -24,19 +24,19 @@ div.dropdown .drop-wrapper .viewport .overview{
 }
 /**nav dropdown list link hover**/
 div.nav-container .nav-panel .menu a:hover, div.nav-container .nav-panel .menu .sub a:hover{
-  color: #2DBD9D;
+  color: #72DE93;
 
 }
 .nav-link a.text:active, .nav-link span.text:active{
-      color: #2DBD9D;
+      color: #72DE93;
 }
 .nav-link a.text:hover, .nav-link span.text:hover{
-      color: #2DBD9D;
+      color: #72DE93;
 }
 
 /**weird state of not hover but not active*/
 .nav-link.active a.text, .nav-link.active span.text{
-  color: #2DBD9D; 
+  color: #72DE93; 
 }
 
 
@@ -56,3 +56,15 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div{
       background-image: url(file:///Applications/MAMP/htdocs/bowie/images/hulu_logo.png);
 
 }
+
+
+/**body description**/
+/*#masthead #key-art ul.slides li div.metadata .description .shadow{
+  width:75%;
+}
+#masthead #key-art ul.slides li div.metadata .headline .origin{
+  width:75%;
+}*/
+/*#masthead #key-art ul.slides li div.metadata .description .origin{
+  width:75%;
+}*/
