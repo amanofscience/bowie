@@ -17,6 +17,16 @@ body #wrap #inner-wrap div#banner .banner-background .semitransparent-bg{
  background-color:#fff;
 }
 
+
+/***moving down nav text**/
+body #wrap #inner-wrap div#banner .page-width .header #browse-menu #browse-menu-list {
+    margin-top: 1px;
+}
+body #wrap #inner-wrap div#banner .page-width #user-menu {
+
+    margin-top: 1px;
+}
+
 /***scroll stuff**/
 /*body #wrap #inner-wrap div#banner.semitransparent .banner-bg-wrapper {
     height: 47px;
