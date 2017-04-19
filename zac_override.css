@@ -1,7 +1,20 @@
 
 /***removing gradients**/
-body #wrap #inner-wrap div#banner.semitransparent .banner-background .gradient-bg{
+/*body #wrap #inner-wrap div#banner.semitransparent .banner-background .gradient-bg{
   display:none;
+}*/
+
+
+/**new background for nav*/
+body #wrap #inner-wrap div#banner .banner-background .gradient-bg{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    background-image: none;
+    border-bottom: 1px solid #ecedf2;
+}
+/**background for scroll nav*/
+body #wrap #inner-wrap div#banner .banner-background .semitransparent-bg{
+ background-color:#fff;
 }
 
 /***scroll stuff**/
@@ -20,11 +33,18 @@ body #wrap #inner-wrap div#banner.semitransparent .banner-background .gradient-b
 }*/
 
 /**nav font styles*/
+
+
+body #wrap #inner-wrap div#banner .banner-background .semitransparent-bg span.text{
+  color:#fff;
+}
+
 .nav-link a.text, .nav-link span.text {
   font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.5px;
+  color: #526573;
 }
 
 
@@ -67,4 +87,11 @@ body.medium #tool-item-container .tool-bar{
 body.large #tool-item-container .tool-bar {
     width: 1426px;
     display: none;
+}
+
+
+
+/******/
+div#referral-tab-container{
+  display:none;
 }
