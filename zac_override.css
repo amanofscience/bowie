@@ -7,7 +7,7 @@
 
 /**new background for nav*/
 body #wrap #inner-wrap div#banner .banner-background .gradient-bg{
-    background-color: rgba(255,255,255,0.92);
+    background-color: rgba(255,255,255,0.95);
     height: 60px;
     background-image: none;
     border-bottom: 1px solid #ecedf2;
