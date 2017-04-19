@@ -7,7 +7,7 @@ div#footer {
 
 /***Width for cover story description***/
 #masthead #key-art ul.slides li div.metadata .description .origin{
-  width:75%;
+  width:65%;
 }
 
 
@@ -74,8 +74,7 @@ div.tray div.item div.badge-on-thumb.watchlist-count {
     font-size: 12px;
     line-height: 24px;
     text-align: center;
-    background: #05AAA3;
-
+    background: #5E6574;
 
 }
 
@@ -112,15 +111,77 @@ body #wrap #inner-wrap div#banner .page-width #search-container form#search-form
 }
 
 .show-description .text-container {
-    width: 1080px;
+    width: 1000px;
     margin-right: 32px;
 }
 
 #show-description div.show-details {
     display: inline-block;
-    width: 1080px;
+    width: 1000px;
     border-bottom: 1px solid #DDDDDD;
     padding-bottom: 20px;
     vertical-align: middle;
     line-height: 20px;
 }
+
+#show-description #smart-video .header-title {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #5E6573;
+    /* text-transform: uppercase; */
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    margin-top: -4px;
+    padding-bottom: 16px;
+}
+
+.show-description .desc-left {
+    width: 224px;
+    margin-top: 28px;
+    padding-right: 20px;
+}
+
+#show-description .desc-left {
+    float: left;
+}
+.show-description .desc-left {
+    width: 224px;
+    margin-top: 28px;
+    padding-right: 80px;
+}
+
+
+a.blue-link {
+    color: #2DBD9D;
+    font-size: 16px;
+}
+
+#show-description .text-container .hide .hide-link {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+#show-description .text-container .details-info-static {
+    font-size: 16px;
+    line-height: 2;
+    color: #5E6573
+}
+
+
+div.tray div.item div.badge-on-thumb.watchlist-new-episode {
+      right: -3px;
+      top: -3px;
+      z-index: 10;
+      color: #FFFFFF;
+      font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
+      text-transform: uppercase;
+      border-radius: 3px;
+      padding: 0 14px;
+      font-weight: 600;
+      cursor: default;
+      font-size: 12px;
+      line-height: 24px;
+      text-align: center;
+      background: #F6235D;
+  }
