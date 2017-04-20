@@ -43,6 +43,11 @@ body #wrap #inner-wrap div#banner .page-width #user-menu {
 
 
 /** search bar***/
+/**moving search bar to the left**/
+body #wrap #inner-wrap div#banner .page-width #search-container {
+    top:-2px;
+    margin-left: 72px;
+    }
 body #wrap #inner-wrap div#banner .page-width #search-container form#search-form div.input-wrapper {
     background: url(http://localhost:8888/bowie/images/search.png) no-repeat 0 0px;
 }
