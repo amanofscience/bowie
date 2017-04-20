@@ -207,3 +207,36 @@ div.tray div.item div.badge-on-thumb.watchlist-new-episode {
       text-align: center;
       background: #F6235D;
   }
+
+  /* watchlist subnav */
+
+  #watchlistpage-subnav {
+      border-bottom: none;
+      background-image: linear-gradient(to left, #92ED8D 0%, #64D98B 42.64%, #05AAA3 100%);
+      z-index: 100;
+      position: fixed;
+      top: 60px;
+      width: 100%;
+      max-width: 1600px;
+  }
+
+  element.style {
+  }
+
+  #watchlistpage-subnav .title {
+      margin-top: 10px;
+      letter-spacing: -2;
+      padding-right: 30px;
+      float: left;
+      font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
+      color: #FFFFFF;
+      font-size: 26px;
+      font-weight: 300;
+      text-transform: none;
+  }
+
+/* player */
+
+#video-player-section div.video-player-container, #live-player-section div.video-player-container, #linear-player-section div.video-player-container {
+    background-color: : #ECEDF2;
+}
