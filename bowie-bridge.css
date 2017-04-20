@@ -1,6 +1,6 @@
 @import url(jess.css);
-@import url(nat.css);
-@import url(zac_override.css);
+/*@import url(nat.css);
+*/@import url(zac_override.css);
 
 
 /*  Body  */
@@ -60,6 +60,8 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
   font-size: 48px;
   visibility: hidden;
   line-height: 1.1;
+  text-shadow: none;
+  width: 470px;
 }
 
 #masthead #key-art ul.slides li div.metadata .headline .origin {
@@ -68,19 +70,28 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
   font-size: 48px;
   text-transform: uppercase;
   line-height: 1.1;
+  text-shadow: none;
+  width: 470px;
+
 }
 
 #masthead #key-art ul.slides li div.metadata .description .shadow {
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
   font-weight: 400;
   visibility: hidden;
-  line-height: 1.35;
+  line-height: 24px;
+  text-shadow: none;
+  width: 470px;
+  font-size: 18px;
 }
 
 #masthead #key-art ul.slides li div.metadata .description .origin {
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
   font-weight: 400;
-  line-height: 1.35;
+  line-height: 24px;
+  text-shadow: none;
+  width: 470px;
+  font-size: 18px;
 }
 
 
@@ -97,24 +108,27 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
 }
 
 #masthead #key-art ul.slides li div.metadata .promotional-text .shadow {
-  font-family: 'Graphik', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  visibility: hidden;
-  line-height: 1.25;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-style: normal;
-  font-size: 14px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    font-size: 14px;
+    text-shadow: none;
+    width: 470px;
 }
 
 #masthead #key-art ul.slides li div.metadata .promotional-text .origin {
-  font-family: 'Graphik', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  line-height: 1.25;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-style: normal;
-  font-size: 14px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    font-size: 14px;
+    text-shadow: none;
+    width: 470px;
 }
 
 .masthead-sprite, {
@@ -126,8 +140,8 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
 
 .tray h3 a {
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  color: #1e1e1e;
+/*  font-weight: 300;
+  color: #1e1e1e;*/
   text-shadow: none;
 }
 
@@ -171,7 +185,6 @@ div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.
 }
 
 div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.desc.hover {
-  color: #35BD33;
 }
 
 div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.secondary {
