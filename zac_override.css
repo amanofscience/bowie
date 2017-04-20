@@ -132,10 +132,10 @@ body #wrap #inner-wrap div#banner .page-width #search-container form#search-form
     border: 1px #2DBD9D solid;
 }*/
 .ui-autocomplete.ui-menu .ui-menu-item a.ui-state-focus.thumbnail-link div.img-wrapper:hover {
-    border: 2px #2DBD9D solid;
+    border: 0px #2DBD9D solid;
 }
 .ui-autocomplete.ui-menu .ui-menu-item a.ui-state-focus.thumbnail-link div.img-wrapper {
-    border: 2px #2DBD9D solid;
+    border: 0px #2DBD9D solid;
     }
 
 
