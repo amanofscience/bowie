@@ -27,6 +27,19 @@ body #wrap #inner-wrap div#banner .page-width #user-menu {
     margin-top: 1px;
 }
 
+/***elipise dots***/
+.nav-link .more {
+    margin-top: 6px;
+    background-repeat: no-repeat;
+    background-position: 1px -630px;
+    height: 12px;
+    width: 20px;
+    top: 9px;
+    background-image: url(http://localhost:8888/bowie/images/sprite3.png);
+
+}
+.header-sprite, body #wrap #inner-wrap div#banner .banner-background .gradient-bg, .nav-link .more, .nav-link.active .more, div.nav-container.upgrade .dropdown .menu li a.hover-upsell, div.nav-container.upsell .dropdown .menu li a.hover-upsell, div.nav-container.upgrade .dropdown .menu li a.hover-upsell:hover, div.nav-container.upsell .dropdown .menu li a.hover-upsell:hover, div.nav-container .nav-panel .browse-link:after, div.nav-container .nav-panel .browse-link:hover:after, div.nav-container .nav-panel.dropdown.open .browse-link:after, div.nav-container .nav-panel .menu a.hover-upgrade, div.nav-container .nav-panel .menu a.hover-upgrade:hover {
+}
 
 
 /** search bar***/
