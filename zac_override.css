@@ -52,16 +52,31 @@ body #wrap #inner-wrap div#banner .page-width #user-menu {
     width: 20px;
     background-image: url(http://localhost:8888/bowie/images/sprite3.png);
 }
-@media (-webkit-min-device-pixel-ratio: 2), not all, not all
-.nav-link .more {
-    -moz-background-size: 122px 216px;
-    -o-background-size: 122px 216px;
-    -webkit-background-size: 122px 216px;
-    background-size: 122px 216px;
-    background-image: url(http://localhost:8888/bowie/images/sprite3.png);
-    background-position: 0 -169px;
+@media (-webkit-min-device-pixel-ratio: 2), not all, not all {
+  .nav-link .more {
+      margin-top: 6px;
+      background-repeat: no-repeat;
+      background-position: 2px -156px;
+      height: 10px;
+      width: 22px;
+      top: 9px;
+      background-image: url(http://localhost:8888/bowie/images/dots.png);
+    }
+      .nav-link.active .more {
+      margin-top: 6px;
+      background-repeat: no-repeat;
+      background-position: 2px -171px;
+      height: 10px;
+      width: 22px;
+      top: 9px;
+      background-image: url(http://localhost:8888/bowie/images/dots.png);
+    }
+    body #wrap #inner-wrap div#banner .page-width #search-container {
+    top: -2px;
+    margin-left: -72px !important;
 }
-
+  
+}
 
 /*******************************************/
 /************** search bar*****************/
