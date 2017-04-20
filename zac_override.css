@@ -76,7 +76,7 @@ body #wrap #inner-wrap div#banner .page-width #search-container form#search-form
 /**placeholder text in search bar**/
 body #wrap #inner-wrap div#banner .page-width #search-container form#search-form div.input-wrapper #search-placeholder {
     color: #5E6573;
-    left: 5px;
+    left: 10px;
   }
   /***text entered in search bar**/
 body #wrap #inner-wrap div#banner .page-width #search-container form#search-form div.input-wrapper input#q {
@@ -87,7 +87,7 @@ body #wrap #inner-wrap div#banner .page-width #search-container form#search-form
   /**text entered in search focus **/
 body #wrap #inner-wrap div#banner .page-width #search-container form#search-form div.input-wrapper input#q:focus {
     color: #1E1E1E;
-    padding: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 7px;
 }
 
 /* search dropdown**/
