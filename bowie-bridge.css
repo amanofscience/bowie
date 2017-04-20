@@ -249,3 +249,29 @@ div.tray div.item div.rank {
   margin-top: -4px;
   padding-bottom: 16px;
 }
+
+/* Nat */
+
+#watchlistpage-subnav {
+    border-bottom: none;
+    background-image: linear-gradient(to left, #92ED8D 0%, #64D98B 42.64%, #05AAA3 100%);
+    z-index: 100;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    max-width: 1600px;
+}
+
+element.style {
+}
+#watchlistpage-subnav .title {
+    margin-top: 10px;
+    letter-spacing: -1;
+    padding-right: 30px;
+    float: left;
+    font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 300;
+    text-transform: none;
+}
