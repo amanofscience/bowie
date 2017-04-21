@@ -1,0 +1,10 @@
+
+.ui-autocomplete.ui-menu div.autocomp-query-tip {
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #2DBD9D;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}

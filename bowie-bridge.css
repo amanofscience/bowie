@@ -1,6 +1,8 @@
 @import url(jess.css);
 /*@import url(nat.css);
 */@import url(zac_override.css);
+@import url(hover-meta.css);
+@import url(search-auto-complete.css);
 
 
 /*  Body  */
@@ -35,10 +37,13 @@ a.blue-link {
 }
 
 a:hover {
-/*  color: #35BD33;
-*/
+
 /*new hulu*/
   color: #72DE93;
+}
+
+div {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
 }
 
 
@@ -152,8 +157,8 @@ div#wrap{
 /*  font-weight: 300;
   color: #1e1e1e;*/
   text-shadow: none;
-      font-size: 24px;
-    letter-spacing: -1px;
+  font-size: 24px;
+  letter-spacing: -1px;
 }
 
 .tray h3 a:hover {
