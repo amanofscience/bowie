@@ -1,9 +1,10 @@
 @import url(jess.css);
 /*@import url(nat.css);
 */
-@import url(zac_override.css);
-@import url(popularpage.css);
-
+@import url(global_elements.css);
+@import url(home.css);
+@import url(popular.css);
+@import url(player.css);
 /*  Body  */
 
 
@@ -217,6 +218,23 @@ div.filters div.radiolist-wrapper .btn.active {
 div.filters div.radiolist-wrapper .btn:hover {
     color: #2DBD9D;
 }
+
+/*  Badge */
+div.grid div.item div.badge-on-thumb.watchlist-new-episode, div.grid div.item div.badge-on-thumb.watchlist-count, div.grid div.item div.badge-on-thumb.expiring-soon, div.grid div.item div.badge-on-thumb.warning, div.grid div.item div.badge-on-thumb.emphasis, div.grid div.item div.badge-on-thumb.info, div.tray div.item div.badge-on-thumb.watchlist-new-episode, div.tray div.item div.badge-on-thumb.watchlist-count, div.tray div.item div.badge-on-thumb.expiring-soon, div.tray div.item div.badge-on-thumb.warning, div.tray div.item div.badge-on-thumb.emphasis, div.tray div.item div.badge-on-thumb.info{
+    right: -3px;
+    top: -3px;
+    z-index: 10;
+    color: #FFFFFF;
+    font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 0 12px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    text-align: center;
+    background: #2DBD9D;
+  }
 
 /* Editorial Tray */
 
