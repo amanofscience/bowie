@@ -200,7 +200,10 @@ body #wrap #inner-wrap div#banner .page-width #user-menu .nav-container .nav-pan
 div.nav-container.upgrade .dropdown .menu li header img, div.nav-container.upsell .dropdown .menu li header img{
   content:url("http://localhost:8888/bowie/images/showtime_logo.png");
 }
-body #wrap #inner-wrap div#banner .page-width #user-menu .nav-container .nav-panel .menu a.btn {
+div.nav-container.upgrade .dropdown .menu li a.hover-upsell, div.nav-container.upsell .dropdown .menu li a.hover-upsell {
+    background-image: url(http://localhost:8888/bowie/images/get_showtime.png);
+}
+div.nav-container.upgrade .dropdown .menu li a.hover-upsell:hover, div.nav-container.upsell .dropdown .menu li a.hover-upsell:hover{
     background-image: url(http://localhost:8888/bowie/images/get_showtime.png);
 }
 /*  Profile dropdown  */
