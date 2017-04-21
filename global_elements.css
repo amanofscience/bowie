@@ -222,6 +222,103 @@ div.nav-container .nav-panel .menu .switch-profile {
 div.nav-container .nav-panel .menu span.separator{
   color: #AEB4BF;
 }
+/*******************************************/
+/************** NAV DROPDOWN END*****************/
+/*****************************************/
+
+
+/*******************************************/
+/************** MASTHEAD START*****************/
+/*****************************************/
+
+/*  Masthead  */
+
+#masthead #key-art ul.slides li div.metadata .headline .shadow {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 48px;
+  visibility: hidden;
+  line-height: 1.1;
+  text-shadow: none;
+  width: 470px;
+}
+
+#masthead #key-art ul.slides li div.metadata .headline .origin {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 1.1;
+  text-shadow: none;
+  width: 470px;
+
+}
+
+#masthead #key-art ul.slides li div.metadata .description .shadow {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  visibility: hidden;
+  line-height: 24px;
+  text-shadow: none;
+  width: 470px;
+  font-size: 18px;
+}
+
+#masthead #key-art ul.slides li div.metadata .description .origin {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  text-shadow: none;
+  width: 470px;
+  font-size: 18px;
+}
+
+
+#masthead #key-art ul.slides li div.metadata {
+  text-shadow: 0px;
+}
+
+#masthead #key-art ul.slides li div.metadata .title .shadow {
+       font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    text-shadow: none;
+    color: #fff;
+}
+
+#masthead #key-art ul.slides li div.metadata .title .origin {
+   font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+#masthead #key-art ul.slides li div.metadata .promotional-text .shadow {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    font-size: 14px;
+    text-shadow: none;
+    width: 470px;
+    color:#ffffff;
+}
+
+#masthead #key-art ul.slides li div.metadata .promotional-text .origin {
+
+        display: none;
+}
+#masthead #key-art ul.slides li div.metadata .title .origin {
+    display: none;
+}
+
+.masthead-sprite, {
+/*background-image: url(https://s3.amazonaws.com/uploads.hipchat.com/16288/4140895/FA5rz1nqECW3wdg/sprite1.png);*/
+
+}
+/*******************************************/
+/************** MASTHEAD END*****************/
+/*****************************************/
+
 
 /*******************************************/
 /************** FOOTER START*****************/
@@ -264,9 +361,32 @@ div#footer .footer-font {
     }
     body #wrap #inner-wrap div#banner .page-width #search-container {
     top: -2px;
-    margin-left: -72px !important;
-}
-  
+    margin-left: -72px !important;}
+div.nav-container.upgrade .dropdown .menu li a.hover-upsell, div.nav-container.upsell .dropdown .menu li a.hover-upsell{
+ background-image: url(http://localhost:8888/bowie/images/getShowtime_retina.png);
+  }
+  /* showtime*/
+  div.nav-container.upgrade .dropdown .menu li a.hover-upsell:hover, div.nav-container.upsell .dropdown .menu li a.hover-upsell:hover{
+     background-image: url(http://localhost:8888/bowie/images/getShowtime_retina.png);
+  }  
+  /* masthead */
+  #masthead .left-arrow .arrow-icon{
+
+  }
+  #masthead .right-arrow .arrow-icon{
+
+  }
+  /*add to watch list in masthead*/
+  #masthead #key-art ul.slides li .add-to-watchlist:hover, #masthead #key-art ul.slides li .add-to-watchlist.hover{
+
+  }
+  #masthead #key-art ul.slides li .add-to-watchlist:hover, #masthead #key-art ul.slides li .add-to-watchlist.hover{
+
+  }
+  /*carousel */
+  #masthead.controls ol.flex-control-nav li a{
+
+  }
 }
 /*******************************************/
 /************** MEDIA QUERY END*****************/
