@@ -196,6 +196,10 @@ div.nav-container.upgrade .dropdown .menu li section, div.nav-container.upsell .
 body #wrap #inner-wrap div#banner .page-width #user-menu .nav-container .nav-panel .menu a.btn{
 
 }
+/*showtime image*/
+div.nav-container.upgrade .dropdown .menu li header img, div.nav-container.upsell .dropdown .menu li header img{
+  content:url("http://localhost:8888/bowie/images/showtime_logo.png");
+}
 /*  Profile dropdown  */
 div.nav-container .nav-panel .menu a {
     color: #5E6573;

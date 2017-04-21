@@ -102,7 +102,10 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
 }
 
 #masthead #key-art ul.slides li div.metadata .title .shadow {
-   font-family: 'Graphik', Helvetica, Arial, sans-serif;
+       font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    text-shadow: none;
+    color: #fff;
 }
 
 #masthead #key-art ul.slides li div.metadata .title .origin {
@@ -119,18 +122,15 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
     font-size: 14px;
     text-shadow: none;
     width: 470px;
+    color:#ffffff;
 }
 
 #masthead #key-art ul.slides li div.metadata .promotional-text .origin {
-    font-family: 'Graphik', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    line-height: 1.25;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-style: normal;
-    font-size: 14px;
-    text-shadow: none;
-    width: 470px;
+
+        display: none;
+}
+#masthead #key-art ul.slides li div.metadata .title .origin {
+    display: none;
 }
 
 .masthead-sprite, {
