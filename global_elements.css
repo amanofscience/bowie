@@ -1,0 +1,273 @@
+/**background for nav*/
+body #wrap #inner-wrap div#banner .banner-background .gradient-bg{
+    background-color: rgba(255,255,255,0.95);
+    height: 60px;
+    background-image: none;
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(to left, #92ED8D 0%, #64D98B 42.64%, #05AAA3 100%);
+    /* border-bottom-width: 30px; */
+    border-image-slice: 1;
+}
+/**background for scroll nav*/
+body #wrap #inner-wrap div#banner .banner-background .semitransparent-bg{
+ background-color:#fff;
+}
+/***bottom border color****/
+body #wrap #inner-wrap div#banner.semitransparent .banner-bg-wrapper {
+        border-bottom: 4px solid transparent;
+    border-image: linear-gradient(to left, #92ED8D 0%, #64D98B 42.64%, #05AAA3 100%);
+    /* border-bottom-width: 30px; */
+    border-image-slice: 1;
+}
+
+/***moving down nav text**/
+body #wrap #inner-wrap div#banner .page-width .header #browse-menu #browse-menu-list {
+    margin-top: 1px;
+}
+body #wrap #inner-wrap div#banner .page-width #user-menu {
+
+    margin-top: 1px;
+}
+
+/***elippis dots***/
+.nav-link .more {
+    margin-top: 6px;
+    background-repeat: no-repeat;
+    background-position: 1px -630px;
+    height: 12px;
+    width: 20px;
+    top: 9px;
+    background-image: url(http://localhost:8888/bowie/images/sprite3.png);
+}
+.nav-link.active .more {
+    background-repeat: no-repeat;
+    background-position: -21px -630px;
+    height: 20px;
+    width: 20px;
+    background-image: url(http://localhost:8888/bowie/images/sprite3.png);
+}
+
+
+
+/*******************************************/
+/************** search bar*****************/
+/*****************************************/
+body #wrap #inner-wrap div#banner .page-width #search-container {
+    top:-2px;
+    margin-left: 72px;
+    }
+body #wrap #inner-wrap div#banner .page-width #search-container form#search-form div.input-wrapper {
+    background: url(http://localhost:8888/bowie/images/search.png) no-repeat 0 0px;
+}
+body #wrap #inner-wrap div#banner .page-width #search-container form#search-form div.input-wrapper:hover {
+    background: url(http://localhost:8888/bowie/images/search.png) no-repeat 0 -34px;
+}
+body #wrap #inner-wrap div#banner .page-width #search-container form#search-form div.input-wrapper:focus, body #wrap #inner-wrap div#banner .page-width #search-container form#search-form div.input-wrapper.focus {
+    background: url(http://localhost:8888/bowie/images/search.png) no-repeat 0 -68px;
+}
+/**placeholder text in search bar**/
+body #wrap #inner-wrap div#banner .page-width #search-container form#search-form div.input-wrapper #search-placeholder {
+    color: #5E6573;
+    left: 10px;
+  }
+  /***text entered in search bar**/
+body #wrap #inner-wrap div#banner .page-width #search-container form#search-form div.input-wrapper input#q {
+    color: #1E1E1E;
+    padding: 1px 1px 1px 7px;
+  }
+
+  /**text entered in search focus **/
+body #wrap #inner-wrap div#banner .page-width #search-container form#search-form div.input-wrapper input#q:focus {
+    color: #1E1E1E;
+    padding: 1px 1px 1px 7px;
+}
+
+/* search dropdown**/
+.ui-autocomplete.ui-widget-content {
+    background: black;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
+.ui-autocomplete.ui-menu .ui-menu-item a {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #5E6573;
+    }
+    /**SEARCH FOR**/
+.ui-autocomplete.ui-menu {
+    color: #1E1E1E;
+    padding-bottom:12px;
+}
+.ui-autocomplete.ui-menu div.divider {
+    background-color: #ECEDF2;
+
+  }
+.ui-autocomplete.ui-menu .ui-menu-item a span.suggest-matched-text {
+    color: #1E1E1E;
+    font-weight:500;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+
+}
+/**hover*/
+.ui-autocomplete.ui-menu .ui-menu-item a.ui-state-focus.text-link {
+    background-color: #ECEDF2;
+  }
+  .ui-autocomplete.ui-menu .ui-menu-item a.ui-state-focus.text-link {
+    color: #5E6573;
+  }
+  .ui-autocomplete.ui-menu .ui-menu-item a.thumbnail-link div.img-wrapper img {
+    border: none;
+}
+/*  .ui-autocomplete.ui-menu .ui-menu-item a.thumbnail-link div.img-wrapper img:hover {
+    border: 1px #2DBD9D solid;
+}*/
+.ui-autocomplete.ui-menu .ui-menu-item a.ui-state-focus.thumbnail-link div.img-wrapper:hover {
+    border: 0px #2DBD9D solid;
+}
+.ui-autocomplete.ui-menu .ui-menu-item a.ui-state-focus.thumbnail-link div.img-wrapper {
+    border: 0px #2DBD9D solid;
+    }
+
+
+.ui-autocomplete.ui-menu .ui-menu-item a.ui-state-focus.thumbnail-link div.img-wrapper img {
+    border: 2px solid #2DBD9D;
+}
+
+/*******************************************/
+/************** nav font styles*****************/
+/*****************************************/
+
+body #wrap #inner-wrap div#banner .banner-background .semitransparent-bg span.text{
+  color:#fff;
+}
+
+.nav-link a.text, .nav-link span.text {
+  font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #526573;
+}
+
+/*******************************************/
+/************** nav drop downs*****************/
+/*****************************************/
+div.nav-container .nav-panel.dropdown.open{
+  border:0px;
+  background: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+  box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+}
+div.nav-container .nav-panel.dropdown{
+  border:0px;
+  background: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+  box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+}
+div.dropdown .drop-wrapper .viewport .overview{
+  background-color:#FCFCFC;
+  border-radius: 3px;
+}
+/*  nav dropdown list link hover  */
+div.nav-container .nav-panel .menu a:hover, div.nav-container .nav-panel .menu .sub a:hover{
+  color: #2DBD9D;
+}
+.nav-link a.text:active, .nav-link span.text:active{
+      color: #2DBD9D;
+}
+.nav-link a.text:hover, .nav-link span.text:hover{
+      color: #2DBD9D;
+}
+/*  Weird state of not hover but not active */
+.nav-link.active a.text, .nav-link.active span.text{
+  color: #2DBD9D;
+}
+/*  Showtime  */
+div.nav-container.upgrade .dropdown .menu li section header, div.nav-container.upsell .dropdown .menu li section header {
+    color: #5E6573;
+}
+div.nav-container.upgrade .dropdown .menu li section, div.nav-container.upsell .dropdown .menu li section{
+  color: #5E6573;
+}
+body #wrap #inner-wrap div#banner .page-width #user-menu .nav-container .nav-panel .menu a.btn{
+
+}
+/*showtime image*/
+div.nav-container.upgrade .dropdown .menu li header img, div.nav-container.upsell .dropdown .menu li header img{
+  content:url("http://localhost:8888/bowie/images/showtime_logo.png");
+}
+div.nav-container.upgrade .dropdown .menu li a.hover-upsell, div.nav-container.upsell .dropdown .menu li a.hover-upsell {
+    background-image: url(http://localhost:8888/bowie/images/get_showtime.png);
+}
+div.nav-container.upgrade .dropdown .menu li a.hover-upsell:hover, div.nav-container.upsell .dropdown .menu li a.hover-upsell:hover{
+    background-image: url(http://localhost:8888/bowie/images/get_showtime.png);
+}
+/*  Profile dropdown  */
+div.nav-container .nav-panel .menu a {
+    color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+        font-size: 14px;
+    line-height: 20px;
+    }
+/*  Switch profiles */
+div.nav-container .nav-panel .menu .switch-profile {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #AEB4BF;
+    font-weight:500;
+  }
+div.nav-container .nav-panel .menu span.separator{
+  color: #AEB4BF;
+}
+
+/*******************************************/
+/************** FOOTER START*****************/
+/*****************************************/
+
+div#footer {
+    background: #ECEDF2;
+    color: #5E6573;
+    }
+div#footer .footer-font {
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+/*******************************************/
+/************** FOOTER END*****************/
+/*****************************************/
+
+
+/*******************************************/
+/************** MEDIA QUERY START*****************/
+/*****************************************/
+@media (-webkit-min-device-pixel-ratio: 2), not all, not all {
+  .nav-link .more {
+      margin-top: 6px;
+      background-repeat: no-repeat;
+      background-position: 2px -156px;
+      height: 10px;
+      width: 22px;
+      top: 9px;
+      background-image: url(http://localhost:8888/bowie/images/dots.png);
+    }
+      .nav-link.active .more {
+      margin-top: 6px;
+      background-repeat: no-repeat;
+      background-position: 2px -171px;
+      height: 10px;
+      width: 22px;
+      top: 9px;
+      background-image: url(http://localhost:8888/bowie/images/dots.png);
+    }
+    body #wrap #inner-wrap div#banner .page-width #search-container {
+    top: -2px;
+    margin-left: -72px !important;
+}
+  
+}
+/*******************************************/
+/************** MEDIA QUERY END*****************/
+/*****************************************/

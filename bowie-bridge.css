@@ -1,9 +1,12 @@
 @import url(jess.css);
-/*@import url(nat.css);
-*/@import url(zac_override.css);
+/*@import url(nat.css);*/
+@import url(zac_override.css);
 @import url(hover-meta.css);
 @import url(search-auto-complete.css);
-
+@import url(global_elements.css);
+@import url(home.css);
+@import url(popular.css);
+@import url(player.css);
 
 /*  Body  */
 
@@ -105,7 +108,10 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
 }
 
 #masthead #key-art ul.slides li div.metadata .title .shadow {
-   font-family: 'Graphik', Helvetica, Arial, sans-serif;
+       font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    text-shadow: none;
+    color: #fff;
 }
 
 #masthead #key-art ul.slides li div.metadata .title .origin {
@@ -122,18 +128,15 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
     font-size: 14px;
     text-shadow: none;
     width: 470px;
+    color:#ffffff;
 }
 
 #masthead #key-art ul.slides li div.metadata .promotional-text .origin {
-    font-family: 'Graphik', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    line-height: 1.25;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-style: normal;
-    font-size: 14px;
-    text-shadow: none;
-    width: 470px;
+
+        display: none;
+}
+#masthead #key-art ul.slides li div.metadata .title .origin {
+    display: none;
 }
 
 .masthead-sprite, {
@@ -207,6 +210,37 @@ div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
   color: #aeb4bf;
 }
+
+/* sub list divider */
+div.filters div.radiolist-wrapper .btn.active {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #5E6573;
+    font-weight:500;
+  }
+  div.filters div.radiolist-wrapper .btn {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #5E6573;
+}
+div.filters div.radiolist-wrapper .btn:hover {
+    color: #2DBD9D;
+}
+
+/*  Badge */
+div.grid div.item div.badge-on-thumb.watchlist-new-episode, div.grid div.item div.badge-on-thumb.watchlist-count, div.grid div.item div.badge-on-thumb.expiring-soon, div.grid div.item div.badge-on-thumb.warning, div.grid div.item div.badge-on-thumb.emphasis, div.grid div.item div.badge-on-thumb.info, div.tray div.item div.badge-on-thumb.watchlist-new-episode, div.tray div.item div.badge-on-thumb.watchlist-count, div.tray div.item div.badge-on-thumb.expiring-soon, div.tray div.item div.badge-on-thumb.warning, div.tray div.item div.badge-on-thumb.emphasis, div.tray div.item div.badge-on-thumb.info{
+    right: -3px;
+    top: -3px;
+    z-index: 10;
+    color: #FFFFFF;
+    font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 0 12px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    text-align: center;
+    background: #2DBD9D;
+  }
 
 /* Editorial Tray */
 

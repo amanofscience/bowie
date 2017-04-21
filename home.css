@@ -1,0 +1,88 @@
+
+
+/*******************************************/
+/************** HOME *****************/
+/*****************************************/
+
+.tray-container {
+    display: inline-block;
+    width: 100%;
+    background-color:#F5F5F8;
+  }
+  .tray h3 a {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #5E6573;
+    font-size: 20px;
+  }
+
+div.tray div.item div.badge-on-thumb.watchlist-count {
+    right: -3px;
+    top: -3px;
+    z-index: 10;
+    color: #FFFFFF;
+    font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 0 12px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    text-align: center;
+    background: #2DBD9D;
+}
+div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.headline {
+        color: #5E6573;
+}
+
+/*******Masthead ********/
+.masthead-sprite, #masthead #key-art ul.slides li .play-button, #masthead #key-art ul.slides li .add-to-watchlist, #masthead #key-art ul.slides li .add-to-watchlist:hover, #masthead #key-art ul.slides li .add-to-watchlist.hover, #masthead #key-art ul.slides li .remove-from-watchlist, #masthead #key-art ul.slides li .remove-from-watchlist:hover, #masthead #key-art ul.slides li .remove-from-watchlist.hover, #masthead #key-art ul.slides li .dislike-button:before, #masthead #key-art ul.slides li .dislike-button:hover:before, #masthead #key-art ul.slides li .dislike-button.hover:before, #masthead #key-art ul.slides .plus-promo .try-button .button-arrow-icon, #masthead .left-arrow .arrow-icon, #masthead .left-arrow.hover .arrow-icon, #masthead .right-arrow .arrow-icon, #masthead .right-arrow.hover .arrow-icon, .feedback-thanks-box .checkmark, body.small #masthead.small #key-art ul.slides .plus-promo .try-button .button-arrow-icon, #masthead.controls ol.flex-control-nav li a, #masthead.controls ol.flex-control-nav li a.active, #key-art .play-button, .player-tray .tray.TYPE_S_ONE_ROW .prev, .embed-tray .tray.TYPE_S_ONE_ROW .prev, .player-tray .tray.TYPE_S_ONE_ROW .prev:hover, .embed-tray .tray.TYPE_S_ONE_ROW .prev:hover, .player-tray .tray.TYPE_S_ONE_ROW .next, .embed-tray .tray.TYPE_S_ONE_ROW .next, .player-tray .tray.TYPE_S_ONE_ROW .next:hover, .embed-tray .tray.TYPE_S_ONE_ROW .next:hover, .welcome .plan-anchor {
+    background-image: url(http://localhost:8888/bowie/images/sprite1-1.png);
+}
+#masthead #key-art ul.slides li img.keyart {
+    top: 60px;
+  }
+
+/******trays key arts******/
+div.tray div.item div.thumbnail {
+    border: none;
+  }
+div.grid div.item.size-1x1.watchlist-overlay .bottom-area, div.tray div.item.size-1x1.watchlist-overlay .bottom-area {
+  background-color: #f5f5f8;
+  position: relative;
+  border: none;  
+}
+div.grid div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area, div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area {
+    width: 195px;
+    padding-left: 0px;
+  }
+div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.desc.hover {
+    color: #2DBD9D;
+}
+/***sprite for key art**/
+div.grid div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.regular, div.tray div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.regular {
+    background-image: url(http://localhost:8888/bowie/images/sprite4.png);
+}
+div.grid div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.regular:hover, div.tray div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.regular:hover{
+      background-image: url(http://localhost:8888/bowie/images/sprite4.png);
+}
+div.grid div.item div.badge-on-thumb.watchlist-badge.add-to-watchlist.regular, div.tray div.item div.badge-on-thumb.watchlist-badge.add-to-watchlist.regular{
+  background-image: url(http://localhost:8888/bowie/images/sprite4.png);
+}
+/* taking out strange facebook/follow toolbar**/
+body.small #tool-item-container .tool-bar{
+  display:none;
+}
+body.medium #tool-item-container .tool-bar{
+  display:none;
+}
+body.large #tool-item-container .tool-bar {
+    width: 1426px;
+    display: none;
+}
+div#referral-tab-container{
+  display:none;
+}
+/*******************************************/
+/************** HOME END*****************/
+/*****************************************/
