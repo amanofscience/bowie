@@ -259,6 +259,33 @@ div.tray div.item div.selected-background {
 }
 
 
+div.grid div.item.marked div.selected-background div.now-playing, div.tray div.item.marked div.selected-background div.now-playing {
+    display: block;
+    position: absolute;
+    bottom: -22px;
+    height: 14px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 14px;
+    font-family: Helvetica;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+div.tray div.item div.selected-background {
+    display: none;
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    background-image: linear-gradient(to left, #92ED8D 0%, #64D98B 42.64%, #05AAA3 100%);
+    border: 20px solid #66AA33;
+    border-bottom: 32px solid #66AA33;
+}
+
+
 /* player */
 
 #video-player-section div.video-player-container, #live-player-section div.video-player-container, #linear-player-section div.video-player-container {
