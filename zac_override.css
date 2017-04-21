@@ -52,6 +52,12 @@ body #wrap #inner-wrap div#banner .page-width #user-menu {
     width: 20px;
     background-image: url(http://localhost:8888/bowie/images/sprite3.png);
 }
+
+/*******************************************/
+/************** Media Querie*****************/
+/*****************************************/
+
+
 @media (-webkit-min-device-pixel-ratio: 2), not all, not all {
   .nav-link .more {
       margin-top: 6px;
@@ -334,8 +340,16 @@ div.grid div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area, div
 div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.desc.hover {
     color: #2DBD9D;
 }
-
-
+/***sprite for key art**/
+div.grid div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.regular, div.tray div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.regular {
+    background-image: url(http://localhost:8888/bowie/images/sprite4.png);
+}
+div.grid div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.regular:hover, div.tray div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.regular:hover{
+      background-image: url(http://localhost:8888/bowie/images/sprite4.png);
+}
+div.grid div.item div.badge-on-thumb.watchlist-badge.add-to-watchlist.regular, div.tray div.item div.badge-on-thumb.watchlist-badge.add-to-watchlist.regular{
+  background-image: url(http://localhost:8888/bowie/images/sprite4.png);
+}
 
 
 
