@@ -1,7 +1,8 @@
 @import url(jess.css);
 /*@import url(nat.css);
-*/@import url(zac_override.css);
-
+*/
+@import url(zac_override.css);
+@import url(popularpage.css);
 
 /*  Body  */
 
@@ -201,6 +202,20 @@ div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.
 div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.secondary {
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
   color: #aeb4bf;
+}
+
+/* sub list divider */
+div.filters div.radiolist-wrapper .btn.active {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #5E6573;
+    font-weight:500;
+  }
+  div.filters div.radiolist-wrapper .btn {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #5E6573;
+}
+div.filters div.radiolist-wrapper .btn:hover {
+    color: #2DBD9D;
 }
 
 /* Editorial Tray */
