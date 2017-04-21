@@ -194,7 +194,7 @@ div.nav-container.upgrade .dropdown .menu li section, div.nav-container.upsell .
   color: #5E6573;
 }
 body #wrap #inner-wrap div#banner .page-width #user-menu .nav-container .nav-panel .menu a.btn{
-  
+
 }
 /*  Profile dropdown  */
 div.nav-container .nav-panel .menu a {
@@ -212,6 +212,22 @@ div.nav-container .nav-panel .menu .switch-profile {
 div.nav-container .nav-panel .menu span.separator{
   color: #AEB4BF;
 }
+
+/*******************************************/
+/************** FOOTER START*****************/
+/*****************************************/
+
+div#footer {
+    background: #ECEDF2;
+    color: #5E6573;
+    }
+div#footer .footer-font {
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+/*******************************************/
+/************** FOOTER END*****************/
+/*****************************************/
 
 
 /*******************************************/
