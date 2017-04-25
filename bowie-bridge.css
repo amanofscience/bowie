@@ -325,3 +325,6 @@ element.style {
     font-weight: 300;
     text-transform: none;
 }
+
+
+@import url(welcome_override.css);
