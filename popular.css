@@ -40,6 +40,16 @@ body #wrap #inner-wrap div#banner.has-extra-header.show-extra-header.semitranspa
     color: #fff;
     }
 
+.extra-header-wrapper .filter-bar .type-filter .btn.active {
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+.extra-header-wrapper .filter-bar .type-filter .btn:first-child {
+    margin-left: 0px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
 
 /* Popular today dropdown*/
 

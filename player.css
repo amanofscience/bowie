@@ -1,7 +1,16 @@
 /*******************************************/
 /*********PLAYER PAGE***********/
 /*******************************************/
+body #wrap #inner-wrap div#banner.stick-top .banner-background {
+    display: block;
+    background-color:#fff;
+}
 #video-player-section div.video-player-container, #live-player-section div.video-player-container, #linear-player-section div.video-player-container {
     /* background: #3c3c3c url(/ns-huluguru/bg-watch-area-cc57434f8338a14995ef14c026d39a1f.png) top left repeat-x; */
     background: none;
+    background-color: #1E1E1E;
 }
+#video-player-section, #live-player-section, #linear-player-section {
+    color: #d72323;
+    
+    }

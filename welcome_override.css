@@ -14,6 +14,9 @@ body #wrap #inner-wrap .welcome-banner{
 body #wrap #inner-wrap div#banner .banner-background .gradient-bg{
 	background:none;
 }
+body #wrap #inner-wrap div#banner.clean-banner .header{
+	padding-top:10px;
+}
 body #wrap #inner-wrap div#banner.clean-banner .header .white {
     background-repeat: no-repeat;
     background-position: -258px -353px;
@@ -25,7 +28,7 @@ body #wrap #inner-wrap div#banner.clean-banner .header .white {
 
     body #wrap #inner-wrap div#banner .page-width .header .header-signup #welcome-signup-button .welcome-free-start {
     width: 200px;
-    height: 50px;
+    height: 40px;
     border-radius: 2px;
     border: solid 1px #5E6573;
     font-size: 16px;
