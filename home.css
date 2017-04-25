@@ -43,7 +43,7 @@ div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.
 .tray h3 a.toggle:after{
       background-image: url(http://localhost:8888/bowie/images/sprite5.png);
 }
-.tray h3 a.toggle:after:hover{
+.tray h3 a.toggle:hover:after{
       background-image: url(http://localhost:8888/bowie/images/sprite5.png);
 }
 /******trays key arts******/
