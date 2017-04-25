@@ -325,3 +325,6 @@ div.tray div.item div.rank {
     font-weight: 300;
     text-transform: none;
 }
+
+
+@import url(welcome_override.css);
