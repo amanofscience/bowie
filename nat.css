@@ -291,3 +291,16 @@ div.tray div.item div.selected-background {
 #video-player-section div.video-player-container, #live-player-section div.video-player-container, #linear-player-section div.video-player-container {
     background-color: : #ECEDF2;
 }
+
+
+/* footer */
+
+.tray.TYPE_S_ONE_ROW_NAV {
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

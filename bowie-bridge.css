@@ -104,7 +104,7 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
 
 
 #masthead #key-art ul.slides li div.metadata {
-  text-shadow: 0px;
+  text-shadow: none;
 }
 
 #masthead #key-art ul.slides li div.metadata .title .shadow {
@@ -139,7 +139,7 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
     display: none;
 }
 
-.masthead-sprite, {
+.masthead-sprite {
 /*background-image: url(https://s3.amazonaws.com/uploads.hipchat.com/16288/4140895/FA5rz1nqECW3wdg/sprite1.png);*/
 
 }
@@ -226,7 +226,9 @@ div.filters div.radiolist-wrapper .btn:hover {
 }
 
 /*  Badge */
-div.grid div.item div.badge-on-thumb.watchlist-new-episode, div.grid div.item div.badge-on-thumb.watchlist-count, div.grid div.item div.badge-on-thumb.expiring-soon, div.grid div.item div.badge-on-thumb.warning, div.grid div.item div.badge-on-thumb.emphasis, div.grid div.item div.badge-on-thumb.info, div.tray div.item div.badge-on-thumb.watchlist-new-episode, div.tray div.item div.badge-on-thumb.watchlist-count, div.tray div.item div.badge-on-thumb.expiring-soon, div.tray div.item div.badge-on-thumb.warning, div.tray div.item div.badge-on-thumb.emphasis, div.tray div.item div.badge-on-thumb.info{
+div.grid div.item div.badge-on-thumb.watchlist-new-episode, div.grid div.item div.badge-on-thumb.watchlist-count, div.grid div.item div.badge-on-thumb.expiring-soon, div.grid div.item div.badge-on-thumb.warning, div.grid div.item div.badge-on-thumb.emphasis, div.grid div.item div.badge-on-thumb.info, div.tray div.item div.badge-on-thumb.watchlist-new-episode, div.tray div.item div.badge-on-thumb.watchlist-count, div.tray div.item div.badge-on-thumb.expiring-soon, div.tray div.item div.badge-on-thumb.warning, div.tray div.item div.badge-on-thumb.emphasis, div.tray div.item div.badge-on-thumb.info
+
+{
     right: -3px;
     top: -3px;
     z-index: 10;
@@ -275,7 +277,7 @@ div.tray div.item.size-1x1 div.thumbnail div.description div.subtitle {
 
 div.tray div.item div.rank {
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
-  font-size: 400;
+  font-weight: 400;
 }
 
 /*  Show    */
@@ -312,11 +314,9 @@ div.tray div.item div.rank {
     max-width: 1600px;
 }
 
-element.style {
-}
 #watchlistpage-subnav .title {
     margin-top: 10px;
-    letter-spacing: -2;
+    letter-spacing: -2px;
     padding-right: 30px;
     float: left;
     font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
@@ -326,5 +326,38 @@ element.style {
     text-transform: none;
 }
 
+/* Footer */
+
+.tray.TYPE_S_ONE_ROW_NAV {
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+div#footer {
+    background: #ECEDF2;
+
+}
+div#footer {
+    font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
+
+    position: relative;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    height: 50px;
+    clear: both;
+}
+
+div#footer .footer-font {
+    color: #5E6573 !important;
+    letter-spacing: 0.5px;
+}
 
 @import url(welcome_override.css);
