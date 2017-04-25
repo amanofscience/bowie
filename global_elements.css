@@ -217,9 +217,9 @@ div.nav-container .nav-panel .menu a.darker {
   background: #fcfcfc !important;
 }
 /*  Switch profiles */
-div.nav-container .nav-panel .menu .switch-profile {
+div.nav-container .nav-panel .menu .switch-profile, div.nav-container .nav-panel .menu a.switch-profile:hover {
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
-  color: #72DE93;
+  color: #3370BB;
   font-weight:500;
   letter-spacing: 1px;
 }
@@ -227,7 +227,16 @@ div.nav-container .nav-panel .menu span.separator{
   background-color: #ecedf2;
 }
 div.nav-container .nav-panel .menu a.profile {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
   color: #5E6573;
+}
+div.nav-container .nav-panel .menu a.profile:hover, div.nav-container .nav-panel .menu a.add-profile:hover {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  color: #72DE93;
+}
+div.nav-container .nav-panel .menu a.add-profile {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  color: #aeb4bf;
 }
 /*******************************************/
 /************** NAV DROPDOWN END*****************/
