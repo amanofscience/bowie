@@ -33,9 +33,19 @@ div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.
         color: #5E6573;
 }
 
-/*******Masthead ********/
-
-
+/***next arrow**/
+.tray a.next {
+    background-image: url(http://localhost:8888/bowie/images/sprite5.png);
+}
+.tray a.next:hover {
+    background-image: url(http://localhost:8888/bowie/images/sprite5.png);
+}
+.tray h3 a.toggle:after{
+      background-image: url(http://localhost:8888/bowie/images/sprite5.png);
+}
+.tray h3 a.toggle:after:hover{
+      background-image: url(http://localhost:8888/bowie/images/sprite5.png);
+}
 /******trays key arts******/
 div.tray div.item div.thumbnail {
     border: none;
