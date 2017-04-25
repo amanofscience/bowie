@@ -326,5 +326,38 @@ div.tray div.item div.rank {
     text-transform: none;
 }
 
+/* Footer */
+
+.tray.TYPE_S_ONE_ROW_NAV {
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+div#footer {
+    background: #ECEDF2;
+
+}
+div#footer {
+    font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
+
+    position: relative;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    height: 50px;
+    clear: both;
+}
+
+div#footer .footer-font {
+    color: #5E6573 !important;
+    letter-spacing: 0.5px;
+}
 
 @import url(welcome_override.css);
