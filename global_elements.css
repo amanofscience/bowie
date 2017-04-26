@@ -232,7 +232,7 @@ div.nav-container .nav-panel .menu a.profile {
 }
 div.nav-container .nav-panel .menu a.profile:hover, div.nav-container .nav-panel .menu a.add-profile:hover {
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
-  color: #72DE93;
+  color: #2DBD9D;
 }
 div.nav-container .nav-panel .menu a.add-profile {
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
@@ -348,8 +348,29 @@ div.nav-container .nav-panel .menu a.add-profile {
 /*******************************************/
 /************** STARS START*****************/
 /*****************************************/
+span.rating-star.large.full{
+  background-image: url(http://localhost:8888/bowie/images/stars.png);
+}
 span.rating-star.large.half{
   background-image: url(http://localhost:8888/bowie/images/stars.png);
+}
+span.rating-star.large.empty{
+  background-image: url(http://localhost:8888/bowie/images/stars.png);
+}
+span.rating-star.large.hover{
+  background-image: url(http://localhost:8888/bowie/images/stars.png);
+}
+span.rating-star.small.full{
+    background-image: url(http://localhost:8888/bowie/images/stars.png);
+}
+span.rating-star.small.half{
+    background-image: url(http://localhost:8888/bowie/images/stars.png);
+}
+span.rating-star.small.empty{
+    background-image: url(http://localhost:8888/bowie/images/stars.png);
+}
+span.rating-star.small.hover{
+    background-image: url(http://localhost:8888/bowie/images/stars.png);
 }
 
 /*******************************************/
@@ -445,6 +466,18 @@ div#footer .footer-font {
 
   }
   span.rating-star.large.hover{
+    background-image: url(http://localhost:8888/bowie/images/stars_retina.png);
+  }
+  span.rating-star.small.full{
+    background-image: url(http://localhost:8888/bowie/images/stars_retina.png);
+  }
+    span.rating-star.small.half{
+    background-image: url(http://localhost:8888/bowie/images/stars_retina.png);
+  }
+    span.rating-star.small.empty{
+    background-image: url(http://localhost:8888/bowie/images/stars_retina.png);
+  }
+      span.rating-star.small.hover{
     background-image: url(http://localhost:8888/bowie/images/stars_retina.png);
   }
 
