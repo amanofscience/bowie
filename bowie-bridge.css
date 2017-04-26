@@ -1,5 +1,5 @@
 @import url(jess.css);
-@import url(nat.css);
+/*@import url(nat.css);*/
 @import url(zac_override.css);
 @import url(hover-meta.css);
 @import url(search-auto-complete.css);
@@ -71,6 +71,7 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
   line-height: 1.1;
   text-shadow: none;
   width: 470px;
+  letter-spacing: -0.5px;
 }
 
 #masthead #key-art ul.slides li div.metadata .headline .origin {
@@ -81,6 +82,7 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
   line-height: 1.1;
   text-shadow: none;
   width: 470px;
+  letter-spacing: -0.5px;
 
 }
 
