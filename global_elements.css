@@ -250,7 +250,7 @@ div.nav-container .nav-panel .menu a.add-profile {
 /*  Masthead  */
 
 .masthead-sprite, #masthead #key-art ul.slides li .play-button, #masthead #key-art ul.slides li .add-to-watchlist, #masthead #key-art ul.slides li .add-to-watchlist:hover, #masthead #key-art ul.slides li .add-to-watchlist.hover, #masthead #key-art ul.slides li .remove-from-watchlist, #masthead #key-art ul.slides li .remove-from-watchlist:hover, #masthead #key-art ul.slides li .remove-from-watchlist.hover, #masthead #key-art ul.slides li .dislike-button:before, #masthead #key-art ul.slides li .dislike-button:hover:before, #masthead #key-art ul.slides li .dislike-button.hover:before, #masthead #key-art ul.slides .plus-promo .try-button .button-arrow-icon, #masthead .left-arrow .arrow-icon, #masthead .left-arrow.hover .arrow-icon, #masthead .right-arrow .arrow-icon, #masthead .right-arrow.hover .arrow-icon, .feedback-thanks-box .checkmark, body.small #masthead.small #key-art ul.slides .plus-promo .try-button .button-arrow-icon, #masthead.controls ol.flex-control-nav li a, #masthead.controls ol.flex-control-nav li a.active, #key-art .play-button, .player-tray .tray.TYPE_S_ONE_ROW .prev, .embed-tray .tray.TYPE_S_ONE_ROW .prev, .player-tray .tray.TYPE_S_ONE_ROW .prev:hover, .embed-tray .tray.TYPE_S_ONE_ROW .prev:hover, .player-tray .tray.TYPE_S_ONE_ROW .next, .embed-tray .tray.TYPE_S_ONE_ROW .next, .player-tray .tray.TYPE_S_ONE_ROW .next:hover, .embed-tray .tray.TYPE_S_ONE_ROW .next:hover, .welcome .plan-anchor {
-    background-image: url(http://localhost:8888/bowie/images/playerCoverSprite.png);
+    background-image: url(http://localhost:8888/bowie/images/masthead.png);
 }
 #masthead #key-art ul.slides li img.keyart {
     top: 60px;
@@ -418,6 +418,11 @@ div#footer .footer-font {
   #masthead #key-art ul.slides li .play-button{
     background-image:url('http://localhost:8888/bowie/images/masthead_retina.png')!important;
   }
+.masthead-sprite, #masthead #key-art ul.slides li .play-button, #masthead #key-art ul.slides li .add-to-watchlist, #masthead #key-art ul.slides li .add-to-watchlist:hover, #masthead #key-art ul.slides li .add-to-watchlist.hover, #masthead #key-art ul.slides li .remove-from-watchlist, #masthead #key-art ul.slides li .remove-from-watchlist:hover, #masthead #key-art ul.slides li .remove-from-watchlist.hover, #masthead #key-art ul.slides li .dislike-button:before, #masthead #key-art ul.slides li .dislike-button:hover:before, #masthead #key-art ul.slides li .dislike-button.hover:before, #masthead #key-art ul.slides .plus-promo .try-button .button-arrow-icon, #masthead .left-arrow .arrow-icon, #masthead .left-arrow.hover .arrow-icon, #masthead .right-arrow .arrow-icon, #masthead .right-arrow.hover .arrow-icon, .feedback-thanks-box .checkmark, body.small #masthead.small #key-art ul.slides .plus-promo .try-button .button-arrow-icon, #masthead.controls ol.flex-control-nav li a, #masthead.controls ol.flex-control-nav li a.active, #key-art .play-button, .player-tray .tray.TYPE_S_ONE_ROW .prev, .embed-tray .tray.TYPE_S_ONE_ROW .prev, .player-tray .tray.TYPE_S_ONE_ROW .prev:hover, .embed-tray .tray.TYPE_S_ONE_ROW .prev:hover, .player-tray .tray.TYPE_S_ONE_ROW .next, .embed-tray .tray.TYPE_S_ONE_ROW .next, .player-tray .tray.TYPE_S_ONE_ROW .next:hover, .embed-tray .tray.TYPE_S_ONE_ROW .next:hover, .welcome .plan-anchor {
+    background-image: url(http://localhost:8888/bowie/images/masthead_retina.png);
+}
+  
+
 }
 /*******************************************/
 /************** MEDIA QUERY END*****************/

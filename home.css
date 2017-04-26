@@ -42,9 +42,21 @@ div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.
 }
 .tray h3 a.toggle:after{
       background-image: url(http://localhost:8888/bowie/images/sprite5.png);
+      margin-left: 12px;
+    margin-bottom: 2px;
+    content: '';
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 1px -943px;
+    height: 15px;
+    width: 10px;
 }
 .tray h3 a.toggle:hover:after{
       background-image: url(http://localhost:8888/bowie/images/sprite5.png);
+          background-repeat: no-repeat;
+    background-position: 1px -926px;
+    height: 15px;
+    width: 20px;
 }
 /******trays key arts******/
 div.tray div.item div.thumbnail {
@@ -83,6 +95,8 @@ div.grid div.item div.badge-on-thumb.watchlist-badge.add-to-watchlist.animating,
   /*animated state*/
   div.grid div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.animated, div.tray div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.animated{
     content:"zac is great";
+  background-image: url(http://localhost:8888/bowie/images/sprite4.png);
+
   }
 /* taking out strange facebook/follow toolbar**/
 body.small #tool-item-container .tool-bar{
@@ -97,6 +111,65 @@ body.large #tool-item-container .tool-bar {
 }
 div#referral-tab-container{
   display:none;
+}
+
+
+/*******************************************/
+/************** MEDIA QUERY START*****************/
+/*****************************************/
+@media (-webkit-min-device-pixel-ratio: 2.0), not all, not all {
+.tray a.next {
+    background-image: url(http://localhost:8888/bowie/images/sprite5_retina.png);
+}
+.tray a.next:hover {
+    background-image: url(http://localhost:8888/bowie/images/sprite5_retina.png);
+}
+.tray a.prev{
+  background-image: url(http://localhost:8888/bowie/images/sprite5_retina.png);
+}
+.tray a.prev:hover{
+  background-image: url(http://localhost:8888/bowie/images/sprite5_retina.png);
+}
+.tray h3 a.toggle:after{
+      background-image: url(http://localhost:8888/bowie/images/sprite5_retina.png);
+    background-size: 114px 918px;
+    background-position: 0 -734px;
+}
+.tray h3 a.toggle:hover:after{
+      background-image: url(http://localhost:8888/bowie/images/sprite5_retina.png);
+          background-repeat: no-repeat;
+      background-position: 0 -720px;
+          background-size: 114px 918px;
+    height: 15px;
+    width: 20px;
+}
+
+
+
+
+div.grid div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.regular, div.tray div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.regular {
+    background-image: url(http://localhost:8888/bowie/images/sprite5_retina.png);
+}
+div.grid div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.regular:hover, div.tray div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.regular:hover{
+      background-image: url(http://localhost:8888/bowie/images/sprite5_retina.png);
+}
+div.grid div.item div.badge-on-thumb.watchlist-badge.add-to-watchlist.regular, div.tray div.item div.badge-on-thumb.watchlist-badge.add-to-watchlist.regular{
+  background-image: url(http://localhost:8888/bowie/images/sprite5_retina.png);
+}
+/* animation for add to check*/
+div.grid div.item div.badge-on-thumb.watchlist-badge.add-to-watchlist.animating, div.tray div.item div.badge-on-thumb.watchlist-badge.add-to-watchlist.animating{
+  content:"zac";
+  background-image: url(http://localhost:8888/bowie/images/addDelete_animation.png);
+  }
+  div.grid div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.animating, div.tray div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.animating{
+ background-image: url(http://localhost:8888/bowie/images/addDelete_animation.png);
+  }
+  /*animated state*/
+  div.grid div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.animated, div.tray div.item div.badge-on-thumb.watchlist-badge.delete-from-watchlist.animated{
+    content:"zac is great";
+  background-image: url(http://localhost:8888/bowie/images/sprite5_retina.png);
+
+  }
 }
 /*******************************************/
 /************** HOME END*****************/
