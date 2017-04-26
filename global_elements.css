@@ -3,7 +3,7 @@ body #wrap #inner-wrap div#banner .banner-background .gradient-bg{
   background-color: rgba(255,255,255,0.95);
   height: 60px;
   background-image: none;
-  border-bottom: 4px solid transparent;
+  border-bottom: 3px solid transparent;
   border-image: linear-gradient(to left, #92ED8D 0%, #64D98B 42.64%, #05AAA3 100%);
   /* border-bottom-width: 30px; */
   border-image-slice: 1;
@@ -14,7 +14,7 @@ body #wrap #inner-wrap div#banner .banner-background .semitransparent-bg{
 }
 /***bottom border color****/
 body #wrap #inner-wrap div#banner.semitransparent .banner-bg-wrapper {
-  border-bottom: 4px solid transparent;
+  border-bottom: 3px solid transparent;
   border-image: linear-gradient(to left, #92ED8D 0%, #64D98B 42.64%, #05AAA3 100%);
   /* border-bottom-width: 30px; */
   border-image-slice: 1;

@@ -14,3 +14,20 @@ body #wrap #inner-wrap div#banner.stick-top .banner-background {
     color: #d72323;
     
     }
+
+
+/*player**/
+#video-player-section .large-player>div #player-container.with-background, #video-player-section .large-player>div #live-player-container.with-background, #video-player-section .large-player>div #linear-player-container.with-background, #live-player-section .large-player>div #player-container.with-background, #live-player-section .large-player>div #live-player-container.with-background, #live-player-section .large-player>div #linear-player-container.with-background, #linear-player-section .large-player>div #player-container.with-background, #linear-player-section .large-player>div #live-player-container.with-background, #linear-player-section .large-player>div #linear-player-container.with-background{
+	background: none;
+	margin-top:30px;
+}
+/* player text */
+#video-player-section .video-description .show-title, #video-player-section .video-description .live-title, #video-player-section .video-description .video-game-title, #live-player-section .video-description .show-title, #live-player-section .video-description .live-title, #live-player-section .video-description .video-game-title, #linear-player-section .video-description .show-title, #linear-player-section .video-description .live-title, #linear-player-section .video-description .video-game-title {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    color: #ffffff;
+    text-shadow: none;
+    vertical-align: top;
+    line-height: 32px;
+}

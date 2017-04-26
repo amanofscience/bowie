@@ -40,6 +40,12 @@ div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.
 .tray a.next:hover {
     background-image: url(http://localhost:8888/bowie/images/sprite5.png);
 }
+.tray a.prev {
+    background-image: url(http://localhost:8888/bowie/images/sprite5.png);
+}
+.tray a.prev:hover {
+    background-image: url(http://localhost:8888/bowie/images/sprite5.png);
+}
 .tray h3 a.toggle:after{
       background-image: url(http://localhost:8888/bowie/images/sprite5.png);
       margin-left: 12px;
