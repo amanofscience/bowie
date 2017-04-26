@@ -170,7 +170,7 @@ div.nav-container .nav-panel.dropdown{
 }
 div.dropdown .drop-wrapper .viewport .overview{
   background-color:#FCFCFC;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 /*  nav dropdown list link hover  */
 div.nav-container .nav-panel .menu a:hover, div.nav-container .nav-panel .menu .sub a:hover{
@@ -219,7 +219,7 @@ div.nav-container .nav-panel .menu a.darker {
 /*  Switch profiles */
 div.nav-container .nav-panel .menu .switch-profile, div.nav-container .nav-panel .menu a.switch-profile:hover {
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
-  color: #3370BB;
+  color: #1E1E1E;
   font-weight:500;
   letter-spacing: 1px;
 }

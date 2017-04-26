@@ -21,6 +21,10 @@ body #wrap #inner-wrap div#banner.stick-top .banner-background {
 	background: none;
 	margin-top:30px;
 }
+/*control bar*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar-background{
+background:none;
+}
 /* player text */
 #video-player-section .video-description .show-title, #video-player-section .video-description .live-title, #video-player-section .video-description .video-game-title, #live-player-section .video-description .show-title, #live-player-section .video-description .live-title, #live-player-section .video-description .video-game-title, #linear-player-section .video-description .show-title, #linear-player-section .video-description .live-title, #linear-player-section .video-description .video-game-title {
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
@@ -30,4 +34,34 @@ body #wrap #inner-wrap div#banner.stick-top .banner-background {
     text-shadow: none;
     vertical-align: top;
     line-height: 32px;
+}
+/* pause text*/
+.dash-player-app .medium-large .content-container .content-player .pause-text .hint {
+    color: #D2D2D2;
+    font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 400;
+    text-shadow: none;
+}
+/*series title*/
+.dash-player-app .medium-large .content-container .content-player .pause-text .pause-title .primary-title {
+    color: #ffffff;
+    font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 500;
+    text-shadow: none;
+}
+/*episode title*/
+.dash-player-app .medium-large .content-container .content-player .pause-text .pause-title .secondary-title{
+	font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
+}
+
+
+/*player control bar*/
+.dash-player-app .medium .controls-bar-container .controls-bar .main-bar-background{
+	background:none;
+	box-shadow:none;
+	border:none;
+}
+/**time bar*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .progress-bar-tracker .progress-bar-played{
+
 }
