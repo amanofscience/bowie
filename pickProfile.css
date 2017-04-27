@@ -1,3 +1,232 @@
 .profile-selector-overlay .header {
     background-color: #fff;
 }
+.profile-selector-overlay .header .logo {
+    background: url(http://localhost:8888/bowie/images/sprite3.png) no-repeat 2px -603px;
+    height: 20px;
+    width: 84px;
+}
+/*profile box*/
+.profile-selector {
+    background-color: #fff;
+    border-radius: 0px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.08);
+    width: 500px;
+    padding: 95px 97px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+    box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+}
+/*vertical space between elements*/
+.profile-selector .profile-item {
+    margin-top: 0px;
+}
+.profile-selector .profile-item {
+    margin-top: 0px;
+}
+.profile-selector .profile-items{
+	padding-top:8px;
+}
+.profile-selector .title {
+	  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color:#5E6573;
+    letter-spacing:-0.75px;
+}
+.profile-selector-overlay .body {
+    background-color: #f5f5f8;
+       background-image: none;
+    border-top: 3px solid transparent;
+    border-image: linear-gradient(to left, #92ED8D 0%, #64D98B 42.64%, #05AAA3 100%);
+    /* border-bottom-width: 30px; */
+    border-image-slice: 1;
+    }
+.profile-selector .profile-item .name{
+	  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	 color:#2DBD9D;
+	  font-weight: 400;
+}
+
+.profile-selector .add-profile .text{
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	    font-weight: 400;
+    color: #AEB4BF;
+}
+.profile-selector .add-profile .text:hover {
+    color: #2DBD9D;
+}
+.profile-selector .add-profile {
+    margin-top: 0px;
+}
+
+
+
+
+/*****profile pick pop up****/
+.dialog-content .dialog-header .dialog-header-content .dialog-header-title {
+    position: absolute;
+    margin: 17px -58px 5px -59px;
+    width: 470px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #5E6573;
+}
+.profile-create .profile-create-message {
+    margin: 24px 33px auto 37px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #AEB4BF;
+    line-height: 20px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+.profile-create .header {
+    font-weight: 600;
+    font-size: 12px;
+    color: #5E6573;
+    text-transform: uppercase;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+/***input fields***/
+div.text-input-wrap input {
+    color: #333;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    height: 45px;
+    width: 200px;
+    background-color: #ffffff;
+    border: 1px solid #E4E4E4;
+    }
+    div.text-input-wrap input:focus {
+    outline: 0;
+    border: 1px solid #2DBD9D;
+/*    border-image: linear-gradient(to left, #92ED8D 0%, #64D98B 42.64%, #05AAA3 100%);
+*/    background-image: none;
+    border-top: 1px solid transparent;
+/*    border-image: linear-gradient(to left, #92ED8D 0%, #64D98B 42.64%, #05AAA3 100%);
+*/    /* border-bottom-width: 30px; */
+    border-image-slice: 1;
+     border: 1px solid #2DBD9D;
+}
+    .profile-create .restricted-message {
+    margin: 5px auto auto 36px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #AEB4BF;
+}
+
+
+/*kid*/
+div.check-box-wrap.toggle input+label {
+    position: relative;
+    background-color: #ECEDF2;
+    padding: 9px;
+    display: inline-block;
+    width: 58px;
+    height: 10px;
+    border-radius: 100px;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+    line-height: normal;
+    cursor: pointer;
+    color: c;
+        font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+div.check-box-wrap.toggle input:checked+label {
+    background-color: #2DBD9D;
+}
+div.check-box-wrap.toggle input+label:before {
+    content: ' ';
+    position: absolute;
+    background: #fff;
+    top: -1px;
+    left: -2px;
+    z-index: 99999;
+    width: 30px;
+    height: 30px;
+    border-radius:100%;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.25);
+    }
+div.check-box-wrap.toggle input+label:after {
+    content: 'OFF';
+    position: absolute;
+    font-weight: 400;
+    font-size: 12px;
+    top: 7px;
+    left: 38.5px;
+    width: 25px;
+    height: 17px;
+    text-align: center;
+    color: #AEB4BF;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+
+}
+
+
+
+/**birthdate**/
+/*div.select-wrap.select2 .Select, div.select-wrap.select2 .Select div, div.select-wrap.select2 .Select input, div.select-wrap.select2 .Select span {
+    box-sizing: border-box;
+    border: none;
+}*/
+div.select-wrap.select2 .Select-option, div.select-wrap.select2 .Select-placeholder, div.select-wrap.select2 .Select-value-label {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #AEB4BF;
+
+}
+div.select-wrap.select2 .Select-control {
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    height: 100%;
+    border-radius: 0;
+	border: 1px solid #E4E4E4;    
+	background-color: #ffffff;
+   }
+
+/**gender selection*/
+div.radio-group-wrap.basic label input+label{
+		border: 1px solid #E4E4E4;    
+}
+div.radio-group-wrap.basic label input:checked+label:after{
+	background-color:#2DBD9D;
+}
+div.radio-group-wrap.basic label .radio-group-label{
+	color:#5E6573;
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	font-weight:400;
+
+}
+
+/* privacy selection*/
+.profile-create .terms-and-privacy{
+	color:#AEB4BF;
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	font-weight:400;
+}
+.profile-create .terms-and-privacy a{
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	color:#3370BB;
+
+}
+
+/*create button*/
+div.button-wrap button {
+    background-color: #2DBD9D;}
+
+div.button-wrap button.with-size span.text {
+     font-family: 'Graphik', Helvetica, Arial, sans-serif;
+
+}

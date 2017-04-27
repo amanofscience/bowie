@@ -106,18 +106,27 @@ div.grid div.item div.badge-on-thumb.watchlist-badge.add-to-watchlist.animating,
   }
 /* taking out strange facebook/follow toolbar**/
 body.small #tool-item-container .tool-bar{
-  display:none;
+  /*display:block;*/
 }
 body.medium #tool-item-container .tool-bar{
-  display:none;
-}
+/*  display:none;
+*/}
 body.large #tool-item-container .tool-bar {
     width: 1426px;
-    display: none;
-}
+/*    display: none;
+*/}
 div#referral-tab-container{
-  display:none;
-}
+/*  display:block;
+*/}
+div#referral-tab-container .refer-button {
+    background: #5E6573;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 500;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size:14px;
+  }
 
 
 /*******************************************/
@@ -144,10 +153,10 @@ div#referral-tab-container{
 .tray h3 a.toggle:hover:after{
       background-image: url(http://localhost:8888/bowie/images/sprite5_retina.png);
           background-repeat: no-repeat;
-      background-position: 0 -720px;
-          background-size: 114px 918px;
-    height: 15px;
-    width: 20px;
+  background-position: 0 -720px;
+  background-size: 114px 918px;
+  height: 15px;
+  width: 20px;
 }
 
 

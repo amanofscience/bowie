@@ -85,9 +85,9 @@ body #wrap #inner-wrap div#banner .page-width #search-container form#search-form
 /* search dropdown**/
 .ui-autocomplete.ui-widget-content {
   background: black;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   background: rgb(255, 255, 255);
   border: none;
 }
@@ -222,6 +222,7 @@ div.nav-container .nav-panel .menu .switch-profile, div.nav-container .nav-panel
   color: #1E1E1E;
   font-weight:500;
   letter-spacing: 1px;
+  font-size:12px;
 }
 div.nav-container .nav-panel .menu span.separator{
   background-color: #ecedf2;

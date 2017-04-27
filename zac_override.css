@@ -257,24 +257,6 @@ div.nav-container .nav-panel .menu span.separator{
 
 
 
-/* taking out strange toolbar**/
-body.small #tool-item-container .tool-bar{
-  display:none;
-}
-body.medium #tool-item-container .tool-bar{
-  display:none;
-}
-body.large #tool-item-container .tool-bar {
-    width: 1426px;
-    display: none;
-}
-
-
-
-/******/
-div#referral-tab-container{
-  display:none;
-}
 
 
 
