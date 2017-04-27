@@ -63,5 +63,46 @@ background:none;
 }
 /**time bar*/
 .dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .progress-bar-tracker .progress-bar-played{
-
 }
+
+
+
+/*******************************************/
+/************** MEDIA QUERY START*****************/
+/*****************************************/
+@media (-webkit-min-device-pixel-ratio: 2.0), not all, not all {
+/*comments on player retina page*/
+#video-player-section .video-description div.functional-bar .comment, #live-player-section .video-description div.functional-bar .comment, #linear-player-section .video-description div.functional-bar .comment {
+    -moz-background-size: 180px 429px;
+    -o-background-size: 180px 429px;
+    -webkit-background-size: 180px 429px;
+    background-size: 180px 429px;
+    background-image: url(http://localhost:8888/bowie/images/playerPage.png);
+	}
+/*hover*/
+#video-player-section .video-description div.functional-bar .comment-container:hover .comment, #live-player-section .video-description div.functional-bar .comment-container:hover .comment, #linear-player-section .video-description div.functional-bar .comment-container:hover .comment {
+    -moz-background-size: 180px 429px;
+    -o-background-size: 180px 429px;
+    -webkit-background-size: 180px 429px;
+    background-size: 180px 429px;
+    background-image: url(http://localhost:8888/bowie/images/playerPage.png);
+    background-position: 0 -20px;
+	}
+	/*twitter*/
+#video-player-section .video-description div.functional-bar .twitter, #live-player-section .video-description div.functional-bar .twitter, #linear-player-section .video-description div.functional-bar .twitter{
+	background-image: url(http://localhost:8888/bowie/images/playerPage.png);
+	}
+	#video-player-section .video-description div.functional-bar .twitter:hover, #live-player-section .video-description div.functional-bar .twitter:hover, #linear-player-section .video-description div.functional-bar .twitter:hover{
+			background-image: url(http://localhost:8888/bowie/images/playerPage.png);
+	}
+/*facebook*/
+#video-player-section .video-description div.functional-bar .facebook, #live-player-section .video-description div.functional-bar .facebook, #linear-player-section .video-description div.functional-bar .facebook{
+	background-image: url(http://localhost:8888/bowie/images/playerPage.png);
+
+	}
+	#video-player-section .video-description div.functional-bar .facebook:hover, #live-player-section .video-description div.functional-bar .facebook:hover, #linear-player-section .video-description div.functional-bar .facebook:hover{
+	background-image: url(http://localhost:8888/bowie/images/playerPage.png);
+
+	}
+}
+

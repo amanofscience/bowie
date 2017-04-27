@@ -8,6 +8,7 @@
 @import url(popular.css);
 @import url(player.css);
 @import url(pickProfile.css);
+@import url(logIn-modal.css);
 
 /*  Body  */
 
@@ -164,7 +165,7 @@ body #wrap #inner-wrap div#banner .page-width .header #logo div {
 /*  Trays   */
 
 #content{
-    margin-top: 42px;
+    margin-top: 0px;
 }
 .tray {
     margin: 15px auto 10px auto;

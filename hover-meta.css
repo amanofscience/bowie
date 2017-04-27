@@ -53,7 +53,7 @@ a.blue-link:hover {
 #hover-box div.hover-info .season {
   color: #aeb4bf;
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
-
+  padding-bottom:2px;
 }
 
 #hover-box div.hover-info .separator {
@@ -73,19 +73,18 @@ a.blue-link:hover {
 }
 
 #hover-box div.hover-info .smart-start .header-title {
-  color: #1E1E1E;
-  letter-spacing: 0;
-  text-transform: none;
-  font-size: 16px;
-  font-family: 'Graphik', Helvetica, Arial, sans-serif;
-
+    color: #5e6573;
+    letter-spacing: 0;
+    text-transform: none;
+    font-size: 16px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
 }
+/*season title on keyart**/
 
 #hover-box div.hover-info .smart-start .thumbnail .meta .title {
   font-weight: 500;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
-
-
+    font-size:14px;
 }
 
 #hover-box div.hover-info .smart-start .thumbnail .meta .season {
@@ -96,16 +95,41 @@ a.blue-link:hover {
 }
 
 #hover-box div.hover-info .button {
-  font-family: 'Graphik', Helvetica, Arial, sans-serif;
-  background: #ecedf2;
-  text-transform: uppercase;
-  font-weight: 500;
-  color: #5e6573;
-  border: 0px solid #ecedf2;
-  box-shadow: none;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #5e6573;
+    border: 1px solid #AEB4BF;
+    box-shadow: none;
+    letter-spacing:0.5hovpx;
+    font-size:13px;
 }
 
 #hover-box div.hover-info .button:hover {
-  color: #fcfcfc;
-  background: #3370bb;
+      border: 1px solid #5E6573;
+
+}
+
+
+/**episode text*/
+#hover-box div.hover-info .title .video-title{
+  font-size: 16px;
+  font-weight:400px;
+    color: #5e6573;
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+/*details*/
+#hover-box div.hover-info .details span{
+    font-size: 12px;
+  font-weight:400px;
+    color: #5e6573;
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+#hover-box div.hover-info .captions span {
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 400px;
+    color: #5e6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
 }

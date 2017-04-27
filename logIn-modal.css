@@ -1,0 +1,48 @@
+.popup-frame{
+	border-radius:0px;
+}
+#popup-section{
+	border-radius:0px;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+    box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+}
+.popup-frame .popup-content .login-heading{
+	font-family: 'Graphik', Helvetica, Arial, sans-serif !important;
+    color: #1E1E1E;
+    font-weight: 400;
+    font-size: 18px;
+}
+/*
+.popup-frame .popup-content .login-detail {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+.popup-frame .popup-content .login-fb-list span {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #5E6573;
+    line-height: 20px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-shadow:none;
+  }*/
+
+  /*border*/
+  /*.popup-frame .popup-content .login-divider{
+  	border:none;
+  }*/
+
+  /**forgot password*/
+/*  .popup-frame .popup-content a {
+    color: #5E6573;
+}
+*/
+
+/*dont have account*/
+/*.popup-frame .popup-content .login-no-account {
+    border-top: 1px solid;
+    border-color: #ECEDF2;
+    color:#5E6573;
+}*/

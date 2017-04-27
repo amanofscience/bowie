@@ -38,6 +38,7 @@ body #wrap #inner-wrap div#banner.has-extra-header.show-extra-header.semitranspa
 
 .checkbox {
     color: #fff;
+    font-weight:500;
     }
 
 .extra-header-wrapper .filter-bar .type-filter .btn.active {

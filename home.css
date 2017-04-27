@@ -1,5 +1,47 @@
 /*******************************************/
-/************** HOME *****************/
+/************** SOCIAL *****************/
+/*****************************************/
+/*div#tool-item-container {
+    width: 100%;
+    background-color: #ECEDF2;
+    height: 60px;
+}*/
+body.medium #tool-item-container .tool-bar {
+    /* display: none; */
+    width: 100%;
+        background-color: #ECEDF2;
+    height: 60px;
+  }
+body.large #tool-item-container .tool-bar {
+    width: 100%;
+    background-color: #ECEDF2;
+    height: 60px;
+  }
+
+#tool-item-container div.tool-bar .text {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-shadow: none;
+    font-weight: 400;
+    font-size: 12px;
+          padding-top:22px;
+
+    }
+    #tool-item-container div.tool-bar .follow-icons{
+      padding-top:22px;  
+    margin-right: 100px;
+    }
+    div#shelf-list {
+    padding-top: 30px;
+}
+
+/*******************************************/
+/************** SOCIAL START *****************/
+/*****************************************/
+
+
+
+/*******************************************/
+/************** TRAY *****************/
 /*****************************************/
 
 .tray-container {
@@ -19,7 +61,7 @@ div.tray div.item div.badge-on-thumb.watchlist-count {
     top: -3px;
     z-index: 10;
     color: #FFFFFF;
-    font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     border-radius: 3px;
     padding: 0 12px;
@@ -29,6 +71,21 @@ div.tray div.item div.badge-on-thumb.watchlist-count {
     text-align: center;
     background: #2DBD9D;
 }
+div.tray div.item div.badge-on-thumb.watchlist-count {
+    right: -3px;
+    top: -3px;
+    z-index: 10;
+    color: #FFFFFF;
+    font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 0 12px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    text-align: center;
+    background: #AEB4BF !important;
+    }
 div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.headline {
         color: #5E6573;
 }
@@ -112,7 +169,6 @@ body.medium #tool-item-container .tool-bar{
 /*  display:none;
 */}
 body.large #tool-item-container .tool-bar {
-    width: 1426px;
 /*    display: none;
 */}
 div#referral-tab-container{

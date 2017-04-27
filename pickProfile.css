@@ -65,9 +65,25 @@
 
 
 /*****profile pick pop up****/
+.dialog-content .dialog-header .dialog-header-cancel .dialog-cancel-botton {
+    position: relative;
+    z-index: 10000;
+    stroke: #AEB4BF;
+    fill: transparent;
+    stroke-width: 2px;
+    margin-top: 17px;
+    margin-right: 17px;
+    width: 21px;
+}
+.dialog-content .dialog-header .dialog-header-cancel .dialog-cancel-botton:hover {
+    stroke: #2DBD9D;
+}
+.dialog-content .dialog-header .dialog-header-content{
+	background-color:#fff;
+}
 .dialog-content .dialog-header .dialog-header-content .dialog-header-title {
     position: absolute;
-    margin: 17px -58px 5px -59px;
+    margin: 39px -58px 5px -59px;
     width: 470px;
     height: 42px;
     font-weight: 400;
@@ -77,11 +93,11 @@
     color: #5E6573;
 }
 .profile-create .profile-create-message {
-    margin: 24px 33px auto 37px;
+    margin: 17px 33px auto 37px;
     font-weight: 400;
     font-size: 12px;
     text-align: center;
-    color: #AEB4BF;
+    color: #5E6573;
     line-height: 20px;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
 }
@@ -119,7 +135,7 @@ div.text-input-wrap input {
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 11px;
-    color: #AEB4BF;
+    color: #5E6573;
 }
 
 
@@ -159,14 +175,14 @@ div.check-box-wrap.toggle input+label:before {
 div.check-box-wrap.toggle input+label:after {
     content: 'OFF';
     position: absolute;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 12px;
-    top: 7px;
+    top: 8px;
     left: 38.5px;
     width: 25px;
     height: 17px;
     text-align: center;
-    color: #AEB4BF;
+    color: #5E6573;
     -webkit-transition: all .1s ease-in;
     transition: all .1s ease-in;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
@@ -180,6 +196,20 @@ div.check-box-wrap.toggle input+label:after {
     box-sizing: border-box;
     border: none;
 }*/
+div.select-wrap.select2 .is-focused:not(.is-open)>.Select-control, div.select-wrap.select2 .is-focused>.Select-control, div.select-wrap.select2:focus .Select-control{
+	border-color:#2DBD9D;
+}
+/*value*/
+div.select-wrap.select2 .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, div.select-wrap.select2 .has-value.Select--single>.Select-control .Select-value .Select-value-label{
+	color:#1E1E1E;
+}
+div.select-wrap.select2 .Select-menu-outer{
+	border: 1px solid #ECEDF2;
+}
+/*hover value*/
+div.select-wrap.select2 .Select-option.is-focused{
+	background-color:#2DBD9D;
+}
 div.select-wrap.select2 .Select-option, div.select-wrap.select2 .Select-placeholder, div.select-wrap.select2 .Select-value-label {
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -195,7 +225,21 @@ div.select-wrap.select2 .Select-control {
 	border: 1px solid #E4E4E4;    
 	background-color: #ffffff;
    }
+/*birthdate tooltip*/
+.profile-create .header-birthdate .field_tooltip .tooltip{
+	    -webkit-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+    box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
 
+}
+.profile-create .header-birthdate .field_tooltip .tooltip .tooltip_text {
+    margin: 0 5px;
+    text-transform: none;
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #5E6573;
+}
 /**gender selection*/
 div.radio-group-wrap.basic label input+label{
 		border: 1px solid #E4E4E4;    
@@ -212,9 +256,10 @@ div.radio-group-wrap.basic label .radio-group-label{
 
 /* privacy selection*/
 .profile-create .terms-and-privacy{
-	color:#AEB4BF;
+	color:#5E6573;
 	font-family: 'Graphik', Helvetica, Arial, sans-serif;
 	font-weight:400;
+	font-size: 11px;
 }
 .profile-create .terms-and-privacy a{
 	font-family: 'Graphik', Helvetica, Arial, sans-serif;
@@ -224,7 +269,18 @@ div.radio-group-wrap.basic label .radio-group-label{
 
 /*create button*/
 div.button-wrap button {
-    background-color: #2DBD9D;}
+    background-color: #2DBD9D;
+background: -moz-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93)); /* safari4+,chrome */
+background: -webkit-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%); /* ie10+ */
+background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 ); /* ie6-9 */
+}
+div.button-wrap button.disabled:hover {
+    opacity: 1;
+}
 
 div.button-wrap button.with-size span.text {
      font-family: 'Graphik', Helvetica, Arial, sans-serif;
