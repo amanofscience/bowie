@@ -133,3 +133,10 @@ a.blue-link:hover {
     color: #5e6573;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
 }
+
+
+
+/*hover meta play button*/
+div.play-hover-button.small{
+  background-image: url(http://localhost:8888/bowie/images/hover_play.png);
+}

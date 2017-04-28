@@ -1,0 +1,101 @@
+div.lightbox #verify-pass-dialog .heading {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #5E6573;
+}
+#gate-view-container #verify-pass-dialog .content-container .current-email, .gate-view-container #verify-pass-dialog .content-container .current-email {
+    width: 320px;
+    padding-bottom: 14px;
+    padding-top: 5px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #AEB4BF;
+}
+/*password field*/
+div.lightbox #verify-pass-dialog input[type="password"]{
+	border: 1px solid #E4E4E4;
+	background-color:#fff;
+}
+div.lightbox label.in-field {
+    color: #AEB4BF;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 19px;
+    font-weight:400;
+}
+
+/*box filled in/yellow */
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+	background-color:#fff !important;
+	border: 1px solid #2DBD9D !important;
+}
+/*password field in*/
+div.lightbox #verify-pass-dialog input[type="password"]{
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	color: #5E6573;
+}
+/*log in button*/
+.button.green.disabled {
+    border: 0px;
+    background-color: #2DBD9D;
+    background: -moz-linear-gradient(270deg, rgba(114,222,147,0.45) 0%, hsla(167, 62%, 46%, 0.45) 100%);;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93));
+    background: -webkit-linear-gradient(270deg, rgba(114,222,147,0.45) 0%, hsla(167, 62%, 46%, 0.45) 100%);;
+    background: -o-linear-gradient(270deg, rgba(114,222,147,0.45) 0%, hsla(167, 62%, 46%, 0.45) 100%);;
+    background: -ms-linear-gradient(270deg, rgba(114,222,147,0.45) 0%, hsla(167, 62%, 46%, 0.45) 100%);;;
+    background: linear-gradient(270deg, rgba(114,222,147,0.45) 0%, hsla(167, 62%, 46%, 0.45) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 );
+}
+.button.green{
+	  border: 0px;
+    background-color: #2DBD9D;
+    background: -moz-linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93));
+    background: -webkit-linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    background: -o-linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    background: -ms-linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 );
+}
+.button.green:hover, .button.green.zeroclipboard-is-hover{
+	border: 0px;
+    background-color: #2DBD9D;
+    background: -moz-linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93));
+    background: -webkit-linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    background: -o-linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    background: -ms-linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 );
+}
+.profile .account .button.green{
+	color:#fff;
+	text-transform:uppercase;
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	font-weight:600;
+
+}
+.profile .account .button.disabled{
+	color:#fff;
+	text-transform:uppercase;
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+		font-weight:600;
+
+}
+.help-info a.blue-link {
+    color: #3370BB;
+}
+
+
+/*error states*/
+div.lightbox #verify-pass-dialog input[type="password"].ferror {
+    margin-bottom: 2px;
+    background-color: #ffffff;
+    /* border-color: #f23609; */
+    border: 1px solid #E6411D;
+}
+div.lightbox #verify-pass-dialog div#result-error {
+    color: #E6411D;
+}
