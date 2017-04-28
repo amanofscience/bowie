@@ -60,3 +60,28 @@ div.grid div.item div.thumbnail div.video-progress-green, div.tray div.item div.
 #masthead.showpage #key-art img, #masthead.networkpage #key-art img, #masthead.spotlightpage #key-art img, #masthead.livepage #key-art img, #masthead.videogamepage #key-art img, #masthead.screeningroompage #key-art img, #masthead.sweepstakespage #key-art img{
 	margin-top:60px;
 }
+@media (-webkit-min-device-pixel-ratio: 2.0), not all, not all {
+    
+    #show-description div.show-details .details-action.btn-watchlist{
+        background-image:url(http://localhost:8888/bowie/images/series_retina.png);
+        width: 85px;
+    }
+    #show-description div.show-details .details-action.btn-watchlist:hover, #show-description div.show-details .details-action.btn-watchlist.hover{
+        background-image:url(http://localhost:8888/bowie/images/series_retina.png);
+        width: 85px;
+    }
+    .share-btn.facebook{
+    background-image:url(http://localhost:8888/bowie/images/series_retina.png);
+    }
+    .share-btn.facebook:hover, .share-btn.facebook.hover{
+    background-image:url(http://localhost:8888/bowie/images/series_retina.png);
+    }
+    .share-btn.twitter{
+        background-image:url(http://localhost:8888/bowie/images/series_retina.png);
+        width: 75px;
+    }
+    .share-btn.twitter:hover, .share-btn.twitter.hover{
+    background-image:url(http://localhost:8888/bowie/images/series_retina.png);
+        width: 75px;
+    }
+}
