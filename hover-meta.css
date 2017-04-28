@@ -43,6 +43,7 @@
   line-height:22px;
   font-size:14px;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
+        margin-bottom: 12px;
 
 }
 a.blue-link {
@@ -117,6 +118,7 @@ a.blue-link:hover {
     box-shadow: none;
     letter-spacing:0.5hovpx;
     font-size:13px;
+        margin-top: 15px;
 }
 
 #hover-box div.hover-info .button:hover {
