@@ -6,7 +6,9 @@
 .arrow-wrapper .east .center, .arrow-wrapper .east .center .fixed-layer, .arrow-wrapper .east .center, .arrow-wrapper .east .center .fixed-layer .arrow  {
   box-shadow: 0 2px 10px rgba(0,0,0,0.20);
 }
-
+#hover-box div.hover-info .title{
+  padding-bottom:2px;
+}
 #hover-box div.hover-info .title a {
   color: #1E1E1E;
   line-height: 1.25;
@@ -21,9 +23,9 @@
 #hover-box div.hover-info .genre a, #hover-box div.hover-info .hub a {
   font-weight: 500;
   letter-spacing: 0px;
-  font-size: 12px;
+  font-size: 14px;
   color: #2DBD9D;
-  text-transform: uppercase;
+  text-transform: none;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
 
 }
@@ -38,24 +40,34 @@
 
 #hover-box div.hover-info .description {
   color: #5e6573;
-  line-height: 1.4;
-  font-size:13px;
+  line-height:22px;
+  font-size:14px;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
 
 }
 a.blue-link {
     color: #2DBD9D;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
 }
 a.blue-link:hover {
     color: #2DBD9D;
 }
-
-#hover-box div.hover-info .season {
-  color: #aeb4bf;
-  font-family: 'Graphik', Helvetica, Arial, sans-serif;
-  padding-bottom:2px;
+/*more link*/
+#hover-box div.hover-info .description a{
+  font-size: 14px;
+  color: #2DBD9D;
+  text-transform: none;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight:500;
 }
-
+/*seasons ie 1 season 23 episodes ex*/
+#hover-box div.hover-info .season {
+    color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    padding-bottom: 2px;
+    font-size: 12px;
+}
+/*separator*/
 #hover-box div.hover-info .separator {
   border-top: 1px solid #ecedf2;
 }
@@ -84,14 +96,15 @@ a.blue-link:hover {
 #hover-box div.hover-info .smart-start .thumbnail .meta .title {
   font-weight: 500;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
-    font-size:14px;
+    font-size:16px;
+    margin-bottom: -6px;
 }
 
 #hover-box div.hover-info .smart-start .thumbnail .meta .season {
-  font-weight: 500;
+  font-weight: 400;
   color: #ecedf2;
-    font-family: 'Graphik', Helvetica, Arial, sans-serif;
-
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-size:12px;
 }
 
 #hover-box div.hover-info .button {
@@ -122,9 +135,10 @@ a.blue-link:hover {
 /*details*/
 #hover-box div.hover-info .details span{
     font-size: 12px;
-  font-weight:400px;
+  font-weight:400;
     color: #5e6573;
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  line-height: 20px;
 }
 #hover-box div.hover-info .captions span {
     line-height: 20px;
@@ -138,5 +152,14 @@ a.blue-link:hover {
 
 /*hover meta play button*/
 div.play-hover-button.small{
-  background-image: url(http://localhost:8888/bowie/images/hover_play.png);
+  background-image: url(http://localhost:8888/bowie/images/hoverPlay.png);
+}
+/*******************************************/
+/************** MEDIA QUERY START*****************/
+/*****************************************/
+@media (-webkit-min-device-pixel-ratio: 2.0), not all, not all {
+
+  div.play-hover-button.small{
+  background-image: url(http://localhost:8888/bowie/images/hoverPlay_retina.png);
+  }
 }

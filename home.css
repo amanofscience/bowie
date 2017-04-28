@@ -122,9 +122,9 @@ div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.
     width: 20px;
 }
 /******trays key arts******/
-div.tray div.item div.thumbnail {
+/*div.tray div.item div.thumbnail {
     border: none;
-  }
+  }*/
 div.grid div.item.size-1x1.watchlist-overlay .bottom-area, div.tray div.item.size-1x1.watchlist-overlay .bottom-area {
   background-color: #f5f5f8;
   position: relative;

@@ -71,6 +71,13 @@ background:none;
 /************** MEDIA QUERY START*****************/
 /*****************************************/
 @media (-webkit-min-device-pixel-ratio: 2.0), not all, not all {
+/*details*/
+#video-player-section .video-description div.functional-bar .details-toggle, #live-player-section .video-description div.functional-bar .details-toggle, #linear-player-section .video-description div.functional-bar .details-toggle{
+	background-image: url(http://localhost:8888/bowie/images/playerPage_details_retina.png);
+	height: 21px;
+    width: 72px;
+}
+
 /*comments on player retina page*/
 #video-player-section .video-description div.functional-bar .comment, #live-player-section .video-description div.functional-bar .comment, #linear-player-section .video-description div.functional-bar .comment {
     -moz-background-size: 180px 429px;

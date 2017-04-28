@@ -1,0 +1,32 @@
+div.play-hover-button.large{
+	background-image:url(http://localhost:8888/bowie/images/hoverPlay.png);
+}
+
+/*hovers state*/
+#hover-box div.hover-info .title div, #hover-box div.hover-info .title a {
+    font-weight: 400;
+    font-size: 20px;
+}
+#hover-box div.hover-info .programming-type, #hover-box div.hover-info .trailer-counts, #hover-box div.hover-info .platforms{
+  font-size: 12px;
+  font-weight:400;
+  color: #5e6573;
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  line-height: 20px;
+}
+@media (-webkit-min-device-pixel-ratio: 2.0), not all, not all {
+.share-btn.facebook{
+	background-image:url(http://localhost:8888/bowie/images/series_retina.png);
+	}
+	.share-btn.facebook:hover, .share-btn.facebook.hover{
+	background-image:url(http://localhost:8888/bowie/images/series_retina.png);
+	}
+	.share-btn.twitter{
+		background-image:url(http://localhost:8888/bowie/images/series_retina.png);
+	    width: 75px;
+	}
+	.share-btn.twitter:hover, .share-btn.twitter.hover{
+	background-image:url(http://localhost:8888/bowie/images/series_retina.png);
+	    width: 75px;
+	}
+}

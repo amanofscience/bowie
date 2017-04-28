@@ -99,3 +99,80 @@ div.lightbox #verify-pass-dialog input[type="password"].ferror {
 div.lightbox #verify-pass-dialog div#result-error {
     color: #E6411D;
 }
+
+
+
+
+/**actual account page**/
+.profile .account .alert .green_check .header {
+    color: #2DBD9D;
+        font-family: 'Graphik', Helvetica, Arial, sans-serif;
+        font-weight:500;
+}
+/*subscription box*/
+.profile .account h2 {
+    color: #AEB4BF;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+.profile .account .content-card h3.left-text, .profile .account .content-card a.left-text, .profile .account .content-card p.left-text, .profile .account .content-card div.left-text {
+    color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+.profile .account .text-line p.detail-text {
+    color: #AEB4BF;
+    line-height: 20px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+/*price*/
+.profile .account section.section-content p{
+    color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+/*manage*/
+.profile .account a.subscription-action{
+    color:#3370BB;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+/*total*/
+.profile .account h3{
+     color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+
+
+/*payment information section*/
+.profile .account .content-card .section-link a{
+        color:#3370BB;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+.profile .account .referrals-container .guides .invite-text{
+      color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;   
+}
+
+
+
+/***/
+.profile .account .column a{
+            color:#3370BB;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size:12px;
+}
+
+
+
+/*buttons*/
+.profile .account .input-append-button input {
+    background-color: #ffffff;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    border: 1px solid #ECEDF2;
+}
+/*button placeholder text*/
+.profile .account form#redeem-form label.in-field, .profile .account form#activate-form label.in-field, .profile .account form#plenti-form label.in-field {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+
+    color: #AEB4BF;
+}
