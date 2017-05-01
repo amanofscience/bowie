@@ -60,7 +60,11 @@
 .profile-selector .add-profile {
     margin-top: 0px;
 }
-
+.profile-selector .subtitle{
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #5E6573;
+    padding-bottom: 20px;
+}
 
 
 
@@ -104,7 +108,7 @@
 .profile-create .header {
     font-weight: 600;
     font-size: 12px;
-    color: #5E6573;
+    color: #1E1E1E;
     text-transform: uppercase;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
 }
@@ -256,7 +260,6 @@ div.radio-group-wrap.basic label .radio-group-label{
 	color:#5E6573;
 	font-family: 'Graphik', Helvetica, Arial, sans-serif;
 	font-weight:400;
-
 }
 
 /* privacy selection*/
@@ -269,7 +272,6 @@ div.radio-group-wrap.basic label .radio-group-label{
 .profile-create .terms-and-privacy a{
 	font-family: 'Graphik', Helvetica, Arial, sans-serif;
 	color:#3370BB;
-
 }
 
 /*create button*/
@@ -289,5 +291,22 @@ div.button-wrap button.disabled:hover {
 
 div.button-wrap button.with-size span.text {
      font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+/*error state*/
+div.text-input-wrap.error-state .error-message {
+    height: 18px;
+    line-height: 18px;
+}
+div.text-input-wrap .error-message{
+	 font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+div.check-box-wrap.big-checkbox input+label{
+	    border: 1px solid #E4E4E4;
+}
+div.check-box-wrap.big-checkbox .checkbox-label{
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	color:#5E6573;
+	line-height: 16px;
 
 }

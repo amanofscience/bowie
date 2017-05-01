@@ -4,6 +4,7 @@ div.lightbox #verify-pass-dialog .heading {
     margin-bottom: 10px;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
     color: #5E6573;
+    text-align: center;
 }
 #gate-view-container #verify-pass-dialog .content-container .current-email, .gate-view-container #verify-pass-dialog .content-container .current-email {
     width: 320px;
@@ -11,7 +12,7 @@ div.lightbox #verify-pass-dialog .heading {
     padding-top: 5px;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
     font-weight: 400;
-    color: #AEB4BF;
+    color: #5E6573;
 }
 /*password field*/
 div.lightbox #verify-pass-dialog input[type="password"]{
@@ -82,7 +83,22 @@ div.lightbox #verify-pass-dialog input[type="password"]{
 	text-transform:uppercase;
 	font-family: 'Graphik', Helvetica, Arial, sans-serif;
 		font-weight:600;
-
+}
+#gate-view-container #verify-pass-dialog .content-container .button-container .btn-confirm .button, .gate-view-container #verify-pass-dialog .content-container .button-container .btn-confirm .button {
+    width: 200px;
+    height: 47px;
+    padding-top: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+    margin-left: 60px;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    }
+    #gate-view-container #verify-pass-dialog .help-info, .gate-view-container #verify-pass-dialog .help-info {
+    text-align: center;
 }
 .help-info a.blue-link {
     color: #3370BB;
@@ -104,10 +120,20 @@ div.lightbox #verify-pass-dialog div#result-error {
 
 
 /**actual account page**/
+/*your next charge*/
 .profile .account .alert .green_check .header {
     color: #2DBD9D;
         font-family: 'Graphik', Helvetica, Arial, sans-serif;
         font-weight:500;
+}
+.profile .account section.section-content.total .right-text{
+    font-weight: 500;
+    font-size: 19px;
+    color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+.profile .account section.section-content.total h3{
+    color: #5E6573;
 }
 /*subscription box*/
 .profile .account h2 {
@@ -143,7 +169,7 @@ div.lightbox #verify-pass-dialog div#result-error {
 
 /*payment information section*/
 .profile .account .content-card .section-link a{
-        color:#3370BB;
+        color:#2DBD9D;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
 }
 .profile .account .referrals-container .guides .invite-text{
@@ -155,7 +181,7 @@ div.lightbox #verify-pass-dialog div#result-error {
 
 /***/
 .profile .account .column a{
-            color:#3370BB;
+            color:#2DBD9D;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
     font-size:12px;
 }
@@ -175,4 +201,457 @@ div.lightbox #verify-pass-dialog div#result-error {
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
 
     color: #AEB4BF;
+}
+
+/*activate and link buttons*/
+.profile .account .input-append-button .button{
+      background-color: #2DBD9D;
+      border-radius: 0px;
+background: -moz-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93)); /* safari4+,chrome */
+background: -webkit-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%); /* ie10+ */
+background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 ); /* ie6-9 */
+}
+.profile .account .input-append-button .button:hover{
+      opacity: 1;
+      background-color: #2DBD9D;
+background: -moz-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93)); /* safari4+,chrome */
+background: -webkit-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%); /* ie10+ */
+background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 ); /* ie6-9 */
+}
+
+
+
+/***Billing History ***/
+div.profilebox #bill-history .dates-container {
+    border-bottom: 1px solid #ECEDF2;
+}
+div.profilebox .profile-list{
+    border:none;
+    padding-bottom:2px;
+}
+div.profilebox .profilebox-header-title {
+    font-size: 24px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #5E6573;
+    font-weight: 400;
+    text-align:center;
+}
+div.profilebox #bill-history .dates-container .date-info.next-charge {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #AEB4BF;
+}
+div.profilebox #bill-history .dates-container .date-info.last-charge {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #AEB4BF;
+    }
+    div.profilebox #bill-history .dates-container .date-info {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #AEB4BF;
+}
+/*tabs */
+div.profilebox .profile-list .tabs .billing-date {
+    font-weight: 600;
+    }
+div.profilebox .profile-list .billing-date {
+    font-weight: 400;
+    font-size: 12px;
+    color: #5E6573;
+    text-transform: uppercase;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    }
+    div.profilebox .profile-list .tabs .note {
+    font-weight: 600;
+    }
+    div.profilebox .profile-list .note {
+    font-weight: 400;
+    font-size: 12px;
+    color: #5E6573;
+    text-transform: uppercase;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+div.profilebox .profile-list .tabs .fee {
+    font-weight: 600;
+    }
+div.profilebox .profile-list .fee {
+    font-weight: 400;
+    font-size: 12px;
+    color: #5E6573;
+    text-transform: uppercase;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+div.profilebox #bill-history .button-container .help-info a {
+    font-size: 11px;
+    color: #2DBD9D;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight:400;
+}
+.button.grey {
+    background-color: #ffffff;
+    background: -moz-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93));
+    background: -webkit-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -o-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -ms-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 );
+    color: #ffffff;
+    border: none;
+    background: none;
+    background-color: #fff;
+    border-radius: 0px;
+    border: 1px solid #AEB4BF;
+    color: #5E6573 !important;
+}
+.button.grey:hover{
+    border:1px solid #5E6573;
+    background: none;
+    background-color: #fff;
+   }
+   .button.grey:hover, .button.grey.zeroclipboard-is-hover {
+    background: none;
+    background-color: #fff;
+}
+div.profilebox .button {
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    color: #fff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    }
+/**page number color***/
+div.profilebox #bill-history .footer-container .page-footer .page-number {
+    color: #5E6573;
+}
+div.profilebox #bill-history .footer-container{
+    text-align:center;
+}
+
+/*page number arrows*/
+div.profilebox #bill-history .footer-container .page-footer .page-prev-icon.disabled{
+    background-image: url(http://localhost:8888/bowie/images/acctM_popUp_Arrows.png);
+}
+div.profilebox #bill-history .footer-container .page-footer .page-next-icon{
+        background-image: url(http://localhost:8888/bowie/images/acctM_popUp_Arrows.png);   
+}
+div.profilebox #bill-history .footer-container .page-footer .page-next-icon:hover{
+    background-image: url(http://localhost:8888/bowie/images/acctM_popUp_Arrows.png);   
+}
+div.profilebox #bill-history .footer-container .page-footer .page-prev-icon:hover{
+    background-image: url(http://localhost:8888/bowie/images/acctM_popUp_Arrows.png);   
+}
+
+/*x out/cancel button*/
+div.profilebox div.close-button{
+    margin:auto;
+}
+body .cancel{
+    background-image: url(http://localhost:8888/bowie/images/x_out_button.png);
+}
+body .cancel:hover, body .cancel.hover{
+    background-image: url(http://localhost:8888/bowie/images/x_out_button.png);
+}
+
+
+
+/**update payment info**/
+/****/
+div.profilebox .profilebox-head{
+    border:none;
+}
+div.profilebox #update-payment-container #payment-info-updates .form-container div.input-row .radio-div .left, div.profilebox #update-payment-container #payment-info-updates .form-container div.input-row .radio-div .right {
+    width: 309px;
+    height: 42px;
+    padding: 12px;
+    border: none;
+    border: 1px solid #E4E4E4;
+    border-radius: 0px;
+    background-color: #fff;
+}
+div.profilebox #update-payment-container #payment-info-updates .form-container div.input-row .radio-div .left, div.profilebox #update-payment-container #payment-info-updates .form-container div.input-row .radio-div .right{
+    background:none;
+    background-color:#fff;
+}
+
+/*text box*/
+div.profilebox input[type="text"]{
+    border-radius:0px;
+    border: 1px solid #E4E4E4;
+    color:#1E1E1E;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size:14px;
+}
+div.profilebox input[type="text"]:focus{
+    border: 1px solid #2DBD9D;
+}
+/*placeholder text*/
+div#signup-container label.in-field, div.profilebox label.in-field{
+    font-size: 14px;
+    color: #AEB4BF;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+/*question icon*/
+div.profilebox #update-payment-container #payment-info-updates .mark-icon {
+    background-image: url(http://localhost:8888/bowie/images/acctM_popUp_Arrows.png);
+    background-position: -322px -62px;
+    height: 42px;
+    width: 28px;
+}
+/*expiration month*/
+div.profilebox #update-payment-container #payment-info-updates .form-container div.input-row:first-child .one-third-width {
+    margin-left: 0px;
+    background: none;
+    border-radius: 0px;
+    border: 1px solid #E4E4E4;
+}
+div#signup-container div.dropdown-div div.dropdown .toggle, div.profilebox div.dropdown-div div.dropdown .toggle {
+    font-size: 14px;
+    color: #AEB4BF;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    }
+    /*expiration dropdown*/
+    div#signup-container div.dropdown-div div.dropdown div, div.profilebox div.dropdown-div div.dropdown div {
+    line-height: 1.75em;
+    font-size: 14px;
+}
+div.dropdown .drop-wrapper .scrollbar .track .thumb {
+    background: #AEB4BF;
+    }
+    div.dropdown .drop-wrapper .scrollbar .track {
+    background: #ECEDF2;
+}
+/*year*/
+div.profilebox #update-payment-container #payment-info-updates .form-container div.input-row .one-third-width{
+    background:none;
+    background-color:#fff;
+    border: 1px solid #E4E4E4;
+}
+
+
+/*need help contact */
+div.profilebox #update-payment-container #payment-info-updates .button-container .help-info a {
+    font-size: 12px;
+    color:#2DBD9D;
+    }
+    /*error state*/
+div.profilebox input[type="text"].field-error{
+        background-color:#fff;
+    }
+
+
+
+
+    /*****/
+    /*redeem gift subscription**/
+    div.profilebox div#redeem-help div .title {
+    font-weight: 600;
+    font-size: 12px;
+    color: #1E1E1E;
+    text-transform: uppercase;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+    div.profilebox div#redeem-help div .intro {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #5E6573;
+    line-height: 20px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+    /*****/
+    /*update personal info**/
+div.profilebox div.input-row .dropdown-div{
+    background:none;
+    background-color:#fff;
+    border-radius: 0px;
+    border: 1px solid #E4E4E4;
+}
+/*birthday year*/
+div.profilebox .profilebox-body input.disabled, div.profilebox .profilebox-body textarea.disabled, div.profilebox .profilebox-body input[type="text"].disabled, div.profilebox .profilebox-body input[type="password"].disabled {
+    color: #AEB4BF;
+    background-color: #ecedf2;
+}
+/*gender*/
+div#signup-container div.radio-div .left.active, div#signup-container div.radio-div .middle.active, div#signup-container div.radio-div .right.active, div.profilebox div.radio-div .left.active, div.profilebox div.radio-div .middle.active, div.profilebox div.radio-div .right.active {
+    border-radius: 0px;
+    background: none;
+    border: 1px solid #E4E4E4;
+    background-color: #fff;
+}
+div#signup-container div.radio-div label, div.profilebox div.radio-div label{
+    color:#5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight:400;
+    font-size:14px;
+}
+div#signup-container div.radio-div label, div.profilebox div.radio-div label:hover{
+    color: #5E6573;
+}
+div#signup-container div.radio-div .right, div.profilebox div.radio-div .right{
+    border-radius: 0px;
+    background: none;
+    background-color: #fff;
+    border: 1px solid #E4E4E4;
+}
+div#signup-container div.radio-div .left, div.profilebox div.radio-div .left{
+    border-radius: 0px;
+    background: none;
+    background-color: #fff;
+    border: 1px solid #E4E4E4;
+}
+/*radio button*/
+div#signup-container label.input-radio.active span.radio-button, div.profilebox label.input-radio.active span.radio-button {
+    background-image: url(http://localhost:8888/bowie/images/radioButton.png);
+    }
+div.profilebox label.input-radio.active span.radio-button:hover{
+    background-image: url(http://localhost:8888/bowie/images/radioButton.png);
+    }
+
+/*change email*/
+div.profilebox .change-email-form .current-email{
+    font-weight: 600;
+    font-size: 12px;
+    color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+div.profilebox .change-email-form .confirm-text {
+    font-weight: 600;
+    font-size: 12px;
+    color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+/*change password*/
+div.profilebox .change-password-form .confirm-text{
+    font-weight: 600;
+    font-size: 12px;
+    color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+div.profilebox .change-password-form .check-box .check-text{
+        font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #5E6573;
+    line-height: 20px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+div.profilebox input[type="password"].field-error{
+    background-color:#fff;
+}
+
+
+/*find activation code*/
+div.profilebox div#activate-help ol li {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+    color: #5E6573;
+    line-height: 23px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+div.profilebox div#activate-help .foot-note{
+    color: #5E6573;
+}
+
+
+/*manage devices*/
+div.profilebox .profile-list .tabs{
+    font-weight:600;
+}
+div.profilebox .profile-list span {
+    text-transform: uppercase;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    }
+div.profilebox #user-devices-list .content-row span {
+    color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: none;
+}
+div.profilebox .input-append-button input, div.profilebox .input-append-button textarea, div.profilebox .input-append-button input[type="text"]{
+    border-radius:0px;
+}
+div.profilebox .activate-device-form .input-row .input-box .activate-input label {
+    font-size: 14px;
+}
+div.profilebox #activate-device-form .submit-action {
+    background-color: #2DBD9D;
+    background: -moz-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93));
+    background: -webkit-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -o-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -ms-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 );
+    border-radius: 0px;
+    opacity:.44;
+}
+div.profilebox #activate-device-form .submit-action:hover {
+        border: 1px solid #E4E4E4;
+        opacity:1;
+}
+div.profilebox .submit-action .initial-text {
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #fff;
+    }
+div.profilebox .activate-device-form .mark-icon {
+    background-position: -322px -63px;
+    height: 29px;
+    background-image: url(http://localhost:8888/bowie/images/acctM_popUp_Arrows.png);
+    width: 28px;
+}
+
+/*manage email notifications*/
+div.profilebox .notification-management-form .title{
+        font-weight: 600;
+    font-size: 12px;
+    color: #1E1E1E;
+    text-transform: uppercase;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+div.profilebox .notification-management-form .right-part b{
+       color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+div.profilebox .notification-management-form .right-part {
+    font-weight: 400;
+    font-size: 12px;
+    color: #5E6573;
+    line-height: 20px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+/*protect your account*/
+div.profilebox #session-invalidation-container .title{
+        font-weight: 600;
+    font-size: 12px;
+    color: #1E1E1E;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+div.profilebox #session-invalidation-container .details {
+    color: #5E6573;
 }

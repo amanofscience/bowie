@@ -308,6 +308,11 @@ div.grid div.item div.badge-on-thumb.watchlist-badge.add-to-watchlist.animating,
 
   }
 }
+
+/*home signed out */
+#masthead #key-art ul.slides .plus-promo-v2 .keyart {
+    content: url(http://localhost:8888/bowie/images/hero_signedOut.png);
+}
 /*******************************************/
 /************** HOME END*****************/
 /*****************************************/
