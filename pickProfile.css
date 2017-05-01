@@ -240,6 +240,11 @@ div.select-wrap.select2 .Select-control {
     font-weight: 400;
     color: #5E6573;
 }
+.profile-create .header-birthdate .field_tooltip .tooltip .tooltip_arrow:after {
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+    box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+    }
 /**gender selection*/
 div.radio-group-wrap.basic label input+label{
 		border: 1px solid #E4E4E4;    

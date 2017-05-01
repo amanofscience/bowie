@@ -58,11 +58,14 @@ body #wrap #inner-wrap div#banner.has-extra-header.show-extra-header.semitranspa
   -webkit-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
   -moz-box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
   box-shadow: 0px 2px 4px 0px rgba(94,101,115,0.2);
+      border: none;
+    border-radius: 0px;
+
 }
 
 div.filters div.dropdown-wrapper div.dropdown .toggle {
     font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
-    color: #2DBD9D;
+    color: #5E6573;
     font-weight: 500;
 }
 

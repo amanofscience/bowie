@@ -23,11 +23,11 @@ body.large #tool-item-container .tool-bar {
     text-shadow: none;
     font-weight: 400;
     font-size: 12px;
-          padding-top:22px;
+    padding-top:20px;
 
     }
     #tool-item-container div.tool-bar .follow-icons{
-      padding-top:22px;  
+      padding-top:20px;  
     margin-right: 100px;
     }
     div#shelf-list {
@@ -56,7 +56,7 @@ body.large #tool-item-container .tool-bar {
     font-size: 20px;
   }
 
-div.tray div.item div.badge-on-thumb.watchlist-count {
+/*div.tray div.item div.badge-on-thumb.watchlist-count {
     right: -3px;
     top: -3px;
     z-index: 10;
@@ -70,7 +70,24 @@ div.tray div.item div.badge-on-thumb.watchlist-count {
     line-height: 25px;
     text-align: center;
     background: #2DBD9D;
-}
+}*/
+/*new episode*/
+div.tray div.item div.badge-on-thumb.watchlist-new-episode{
+    right: -3px;
+    top: -3px;
+    z-index: 10;
+    color: #FFFFFF;
+    font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    border-radius: 0px;
+    padding: 0 12px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    text-align: center;
+    background: #2DBD9D;
+  }
+  /*grey unwatched*/
 div.tray div.item div.badge-on-thumb.watchlist-count {
     right: -3px;
     top: -3px;
@@ -78,17 +95,66 @@ div.tray div.item div.badge-on-thumb.watchlist-count {
     color: #FFFFFF;
     font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
     text-transform: uppercase;
-    border-radius: 3px;
+    border-radius: 0px;
     padding: 0 12px;
     font-weight: 600;
     font-size: 11px;
     line-height: 25px;
     text-align: center;
-    background: #AEB4BF !important;
+    background: #868D9B;
     }
 div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.headline {
         color: #5E6573;
 }
+/*new badge*/
+#show-description #smart-video div.badge-on-thumb.new-badge{
+    background-image: url(http://localhost:8888/bowie/images/new_badge.png);
+}
+
+.badge-on-thumb.new-badge::after {
+    content: "New";
+}
+
+.badge-on-thumb.new-badge {
+    /* height: 25px !important; */
+    background-image: none !important;
+    /* width: 100px !important; */
+    right: -3px;
+    /* top: -1px !important; */
+    z-index: 10;
+    color: #FFFFFF;
+    font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    border-radius: 0px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    background: #2DBD9D;
+      padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    /* content: "New"; */
+    padding-right: 6px;
+    }
+
+    /**expiring badge*/
+  div.tray div.item div.badge-on-thumb.expiring-soon{
+          right: -3px;
+    top: -3px;
+    z-index: 10;
+    color: #FFFFFF;
+    font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    border-radius: 0px;
+    padding: 0 12px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    text-align: center;
+    background: #2DBD9D;
+
+     }
 
 /***next arrow**/
 .tray a.next {

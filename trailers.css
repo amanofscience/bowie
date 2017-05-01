@@ -1,5 +1,5 @@
 div.play-hover-button.large{
-	background-image:url(http://localhost:8888/bowie/images/hoverPlay.png);
+	background-image:url(http://localhost:8888/bowie/images/hoverPlay_retina.png);
 }
 
 /*hovers state*/
@@ -14,19 +14,33 @@ div.play-hover-button.large{
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
   line-height: 20px;
 }
+
+div.filters div.dropdown-wrapper div.dropdown.open {
+    background: #fff;
+}
+div.tray div.item.size-1x1.short-form-overlay div.metadata-area div.desc span.source{
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    letter-spacing: 0px;
+}
+
 @media (-webkit-min-device-pixel-ratio: 2.0), not all, not all {
-.share-btn.facebook{
-	background-image:url(http://localhost:8888/bowie/images/series_retina.png);
+
+	div.dropdown .toggle:after {
+	    background-image: url(http://localhost:8888/bowie/images/dropdownArrows_retina.png);
+	    background-position: -1px -9px;
+	    height: 10px;
+    	width: 36px;
 	}
-	.share-btn.facebook:hover, .share-btn.facebook.hover{
-	background-image:url(http://localhost:8888/bowie/images/series_retina.png);
+	div.dropdown .toggle.active:after {
+	    background-image: url(http://localhost:8888/bowie/images/dropdownArrows_retina.png);
+	    background-position: -1px -9px;
+	    height: 10px;
+    	width: 36px;
 	}
-	.share-btn.twitter{
-		background-image:url(http://localhost:8888/bowie/images/series_retina.png);
-	    width: 75px;
+	div.dropdown .drop-wrapper .drop div.active:before{
+	    background-image: url(http://localhost:8888/bowie/images/dropdownArrows_retina.png);
 	}
-	.share-btn.twitter:hover, .share-btn.twitter.hover{
-	background-image:url(http://localhost:8888/bowie/images/series_retina.png);
-	    width: 75px;
+	div.dropdown .drop-wrapper .drop div.active:hover:before{
+		background-image: url(http://localhost:8888/bowie/images/dropdownArrows_retina.png);
 	}
 }

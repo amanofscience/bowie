@@ -276,7 +276,7 @@ div.nav-container .nav-panel .menu span.separator{
     color: #5E6573;
     font-size: 20px;
   }
-
+/*
 div.tray div.item div.badge-on-thumb.watchlist-count {
     right: -3px;
     top: -3px;
@@ -291,7 +291,7 @@ div.tray div.item div.badge-on-thumb.watchlist-count {
     line-height: 25px;
     text-align: center;
     background: #2DBD9D;
-}
+}*/
 div.tray div.item.size-1x1.watchlist-overlay .bottom-area div.metadata-area div.headline {
         color: #5E6573;
 }

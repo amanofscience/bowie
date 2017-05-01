@@ -57,14 +57,36 @@ div.grid div.item div.thumbnail div.video-progress-green, div.tray div.item div.
 /**genre and links in series descrition*/
 a.genre.blue-link.beacon.beacon-click {
     font-weight: 500;
+    font-size:14px;
 }
 #show-description .text-container .details-info-static a.more{
     font-weight:500;
+    font-size:14px;
 }
 #show-description .text-container .hide .hide-link{
     font-weight: 500;
+     font-size:14px;
+}
+.company a {
+    font-weight: 500;
+    font-size:14px;
+}
+/*cc language*/
+#show-description .text-container div.show-links .captions, #show-description .text-container div.show-links-minimized .captions {
+    color: #5E6573;
+    font-size:14px;
 }
 
+/**separator for more and hide*/
+#show-description .text-container div.show-links.bottom-border, #show-description .text-container div.show-links-minimized.bottom-border{
+    border:none;
+    padding-top: 10px;
+}
+#show-description .text-container .expanded-details {
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 10px;
+    width:701px;
+}
 
 
 
