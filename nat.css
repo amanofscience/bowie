@@ -304,3 +304,35 @@ div.tray div.item div.selected-background {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+/* player page */
+
+div.grid div.item.size-1x1 div.selected-background, div.tray div.item.size-1x1 div.selected-background {
+    width: 220px;
+    height: 123px;
+}
+
+div.grid div.item div.selected-background, div.tray div.item div.selected-background {
+    display: none;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background-color: white;
+    border: 5px solid #1E1E1E;
+    border-bottom: 20px solid #1E1E1E;
+}
+
+div.grid div.item.marked div.selected-background div.now-playing, div.tray div.item.marked div.selected-background div.now-playing {
+    display: block;
+    position: absolute;
+    bottom: -22px;
+    height: 18px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 14px;
+    font-family: Helvetica;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+}
