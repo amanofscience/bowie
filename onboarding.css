@@ -1,0 +1,65 @@
+.dialog-canvas .dialog .dialog-title, .dialog-canvas .dialog .dialog-subtitle, .dialog-canvas .dialog .dialog-text, .dialog-canvas .dialog .dialog-expected, .onboarding-tile .texts .taste-name, .onboarding-tile .texts .show-name-text, .onboarding-header .notification-section, .onboarding-header .button-section .skip {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+.onboarding-header {
+    background-color: rgba(255,255,255,0.95);
+}
+
+.onboarding-header .notification-section {
+  color: #5e6573;
+  font-weight: 500;
+  background-image: linear-gradient(-225deg, #72DE93 0%, #2DBD9D 100%), linear-gradient(90deg, #72DE93 0%, #2DBD9D 100%);
+  border: none;
+  color: white;
+}
+
+.dialog-canvas .dialog .dialog-expected {
+  box-sizing: border-box;
+  border: none;
+  background-image: linear-gradient(-225deg, #72DE93 0%, #2DBD9D 100%), linear-gradient(90deg, #72DE93 0%, #2DBD9D 100%);
+}
+
+.onboarding-header .button-section .continue-button {
+  box-sizing: border-box;
+  background-image: linear-gradient(-225deg, #72DE93 0%, #2DBD9D 100%), linear-gradient(90deg, #72DE93 0%, #2DBD9D 100%);
+  color: white;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border: none;
+}
+
+.onboarding-header .button-section .continue-button .skip {
+  box-shadow: inset 0px 0px 0px 1px #AEB4BF;
+  border: none;
+  background: none;
+  color: #5E6573;
+}
+
+.onboarding-header .button-section .skip:hover {
+  box-shadow: inset 0px 0px 0px 1px #5E6573;
+  border: none;
+  background: none;
+  color: #5E6573;
+}
+
+.onboarding-header .button-section .skip:active {
+  border: 1px solid #5E6573;
+  background: none;
+  color: #5E6573;
+  padding: 20px 43px 18px;
+}
+
+.dialog-canvas {
+}
+
+.recommended-tastes {
+  background-color: #ECEDF2;
+}
+
+.dialog-canvas .dialog .dialog-title {
+  font-weight: 300;
+}
+
+.onboarding-tile .texts .taste-name {
+  font-weight: 400;
+}
