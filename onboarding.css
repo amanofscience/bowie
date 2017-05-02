@@ -1,34 +1,50 @@
-.dialog-canvas .dialog .dialog-title, .dialog-canvas .dialog .dialog-subtitle, .dialog-canvas .dialog .dialog-text, .dialog-canvas .dialog .dialog-expected, .onboarding-tile .texts .taste-name, .onboarding-tile .texts .show-name-text, .onboarding-header .notification-section, .onboarding-header .button-section .skip {
+.onboarding {
+  background-color: #f7f7f7;
+}
+
+.dialog-canvas .dialog .dialog-title, .dialog-canvas .dialog .dialog-subtitle, .dialog-canvas .dialog .dialog-text, .dialog-canvas .dialog .dialog-expected, .onboarding-tile .texts .taste-name, .onboarding-tile .texts .show-name-text, .onboarding-header .notification-section, .onboarding-header .button-section .skip, .dialog-canvas .dialog .dialog-unexpected {
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
 }
 .onboarding-header {
-    background-color: rgba(255,255,255,0.95);
+    background-color: rgba(255,255,255,0.94);
 }
 
-.onboarding-header .notification-section {
-  color: #5e6573;
-  font-weight: 500;
-  background-image: linear-gradient(-225deg, #72DE93 0%, #2DBD9D 100%), linear-gradient(90deg, #72DE93 0%, #2DBD9D 100%);
-  border: none;
-  color: white;
+.onboarding-header .notification-section span {
+  color: #5E6573;
 }
 
 .dialog-canvas .dialog .dialog-expected {
   box-sizing: border-box;
   border: none;
+  letter-spacing: 1px;
+  font-weight: 600;
+  background-color: #2DBD9D;
   background-image: linear-gradient(-225deg, #72DE93 0%, #2DBD9D 100%), linear-gradient(90deg, #72DE93 0%, #2DBD9D 100%);
+  color: white;
+  font-size: 14px;
+  padding: 19px 28px 21px;
+  margin: 48px auto 32px;
+}
+
+.dialog-canvas .dialog .dialog-expected:hover {
+  background-image: none;
+  background-color: #2DBD9D;
+}
+
+.dialog-canvas .dialog .dialog-expected:active {
+  padding: 20px 28px 20px;
 }
 
 .onboarding-header .button-section .continue-button {
   box-sizing: border-box;
-  background-image: linear-gradient(-225deg, #72DE93 0%, #2DBD9D 100%), linear-gradient(90deg, #72DE93 0%, #2DBD9D 100%);
-  color: white;
+  background: none;
   font-size: 14px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  padding: 19px 23px;
   border: none;
 }
 
-.onboarding-header .button-section .continue-button .skip {
+.onboarding-header .button-section .continue-button.skip {
   box-shadow: inset 0px 0px 0px 1px #AEB4BF;
   border: none;
   background: none;
@@ -43,13 +59,50 @@
 }
 
 .onboarding-header .button-section .skip:active {
-  border: 1px solid #5E6573;
+  box-shadow: inset 0px 0px 0px 1px #5E6573;
   background: none;
   color: #5E6573;
   padding: 20px 43px 18px;
 }
 
+.onboarding-header .button-section .continue-button.done {
+  box-shadow: none;
+  border: none;
+  color: white;
+  background-color: #2DBD9D;
+  background-image: linear-gradient(-225deg, #72DE93 0%, #2DBD9D 100%), linear-gradient(90deg, #72DE93 0%, #2DBD9D 100%);
+}
+
+.onboarding-header .button-section .continue-button.done:hover {
+  border: none;
+  background-image: none;
+  background-color: #2DBD9D;
+}
+
+.onboarding-header .button-section .continue-button.done:active {
+  background: none;
+  color: #5E6573;
+  background-color: #2DBD9D;
+  padding: 20px 43px 18px;
+}
+
+.onboarding-tile .overlay {
+  background-image: linear-gradient(-225deg, #72DE93 0%, #2DBD9D 100%), linear-gradient(90deg, #72DE93 0%, #2DBD9D 100%);
+  opacity: 0.72;
+}
+
 .dialog-canvas {
+}
+
+.dialog-canvas .dialog .dialog-unexpected {
+  color: rgba(255,255,255,0.5);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.dialog-canvas .dialog .dialog-unexpected:hover {
+  color: rgba(255,255,255,1.0);
 }
 
 .recommended-tastes {
@@ -60,6 +113,15 @@
   font-weight: 300;
 }
 
+.onboarding-tile .texts .show-name-text {
+  color: rgba(255, 255, 255, 0.7);
+  border-right: .1vw solid rgba(255, 255, 255, 0.26);
+}
+
 .onboarding-tile .texts .taste-name {
   font-weight: 400;
+}
+
+.selected-tastes-wrapper {
+  background-color: rgba(255,255,255,0.94);
 }
