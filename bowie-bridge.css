@@ -7,11 +7,13 @@
 @import url(home.css);
 @import url(popular.css);
 @import url(player.css);
+@import url(player_signedOut.css);
 @import url(pickProfile.css);
 @import url(logIn-modal.css);
 @import url(acctM.css);
 @import url(series.css);
 @import url(trailers.css);
+@import url(profile.css);
 
 /*  Body  */
 

@@ -1,0 +1,334 @@
+#video-player-section .large-player>div #player-container.with-background, #video-player-section .large-player>div #live-player-container.with-background, #video-player-section .large-player>div #linear-player-container.with-background, #live-player-section .large-player>div #player-container.with-background, #live-player-section .large-player>div #live-player-container.with-background, #live-player-section .large-player>div #linear-player-container.with-background, #linear-player-section .large-player>div #player-container.with-background, #linear-player-section .large-player>div #live-player-container.with-background, #linear-player-section .large-player>div #linear-player-container.with-background{
+/*	border-bottom:1px solid white;
+*/}
+#video-player-section .large-player>div #video-description, #video-player-section .large-player>div #live-video-description, #video-player-section .large-player>div #linear-video-description, #live-player-section .large-player>div #video-description, #live-player-section .large-player>div #live-video-description, #live-player-section .large-player>div #linear-video-description, #linear-player-section .large-player>div #video-description, #linear-player-section .large-player>div #live-video-description, #linear-player-section .large-player>div #linear-video-description{
+	padding-top:30px;
+}
+
+.dash-player-app .medium-large .roadblock-card .roadblock-container{
+	margin-left:0px;
+}
+.dash-player-app .medium-large .roadblock-card .roadblock-container {
+    text-align: center;
+}
+/*player background*/
+.dash-player-app .medium .roadblock-card{
+	background-color:#1E1E1E !important;
+}
+.dash-player-app .medium-large .roadblock-card{
+	background-color:#1E1E1E!important;
+}
+/*title*/
+.dash-player-app .medium-large .roadblock-card.fvod .roadblock-title, .dash-player-app .medium-large .roadblock-card.fvod .roadblock-message {
+    max-width: 62%  !important;
+}
+.dash-player-app .medium-large .roadblock-card .roadblock-title {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-shadow: none;
+    font-size: 40px;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    margin: auto;
+    color: #fff;
+    margin-top: 161px;
+}
+
+/*get unlimited access line*/
+.dash-player-app .medium-large .roadblock-card.fvod .roadblock-message{
+	font-weight:400;
+}
+.dash-player-app .medium-large .roadblock-card .roadblock-message {
+    color: #fff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 38px;
+    }
+
+/*start free trial button*/
+    .dash-player-app .medium-large .roadblock-card .roadblock-button {
+    background-color: #2DBD9D  !important;
+    background: -moz-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%)  !important;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93))  !important;
+    background: -webkit-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%)  !important;
+    background: -o-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%)  !important;
+    background: -ms-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%) !important;
+    background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%)  !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 ) !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+    letter-spacing: .3px !important;
+    color: #fff !important;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif !important;
+    text-shadow: none !important;
+    margin: auto !important;
+    text-align: center !important;
+    margin-top: 50px !important;
+    opacity:1 !important;
+}
+ .dash-player-app .medium-large .roadblock-card .roadblock-button:hover {
+    background-color: #2DBD9D !important;
+    background: -moz-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%) !important;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93)) !important;
+    background: -webkit-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%) !important;
+    background: -o-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%) !important;
+    background: -ms-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%) !important;
+    background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 ) !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+    letter-spacing: .3px !important;
+    color: #fff !important;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif !important;
+    text-shadow: none !important;
+    margin: auto !important;
+    text-align: center !important;
+    margin-top: 50px !important;
+    opacity:1 !important;
+}
+/*already have a subscription?*/
+.dash-player-app .medium-large .roadblock-card.fvod .roadblock-login {
+    color: #fff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: auto !important;
+    margin-top: 23px !important;
+    width: 100% !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+.dash-player-app .medium-large .roadblock-card .roadblock-link a {
+    color: #2DBD9D !important;
+    font-weight: 600;
+}
+
+/*episodes*/
+.dash-player-app .medium-large .roadblock-card .roadblock-showinfo {
+    font-size: 12px !important;
+    bottom: 86px !important; 
+    position: absolute;
+    color: #fff !important;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+    width: 99%;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+
+/****************/
+/****************/
+/****************/
+/**medium screen*/
+/****************/
+.dash-player-app .medium .roadblock-card .roadblock-container{
+	margin-left:0px;
+	text-align:center;
+}
+.dash-player-app .medium .roadblock-card .roadblock-title{
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-shadow: none;
+    font-size: 40px;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    margin: auto;
+    color: #fff;
+    margin-top: 100px;
+}
+/*start free trial button*/
+    .dash-player-app .medium .roadblock-card .roadblock-button {
+    background-color: #2DBD9D;
+    background: -moz-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93));
+    background: -webkit-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -o-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -ms-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 );
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    color: #fff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-shadow: none;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    opacity:1;
+}
+ .dash-player-app .medium .roadblock-card .roadblock-button:hover {
+    background-color: #2DBD9D;
+    background: -moz-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93));
+    background: -webkit-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -o-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -ms-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 );
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    color: #fff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-shadow: none;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    opacity:1;
+}
+/*already have a subscription?*/
+.dash-player-app .medium .roadblock-card.fvod .roadblock-message{
+	font-weight:400;
+}
+.dash-player-app .medium .roadblock-card.fvod .roadblock-login {
+    color: #fff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 7px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+}
+.dash-player-app .medium .roadblock-card .roadblock-message {
+    color: #d2d2d2;
+    font-size: 15px;
+    font-family: "Flama", Helvetica, Arial, Verdana, sans-serif;
+    line-height: 21px;
+    max-width: 500px;
+    margin-top: 20px;
+    margin-left: 0px;
+    color: #fff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 15px;
+}
+.dash-player-app .medium .roadblock-card .roadblock-link a {
+    color: #2DBD9D;
+    font-weight: 600;
+}
+
+/*episodes*/
+.dash-player-app .medium .roadblock-card .roadblock-showinfo {
+    color: #787878;
+    font-size: 12px;
+    bottom: 40px;
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/*show title*/
+#video-player-section .video-description .show-title, #video-player-section .video-description .live-title, #video-player-section .video-description .video-game-title, #live-player-section .video-description .show-title, #live-player-section .video-description .live-title, #live-player-section .video-description .video-game-title, #linear-player-section .video-description .show-title, #linear-player-section .video-description .live-title, #linear-player-section .video-description .video-game-title {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 27px;
+    color: #2DBD9D;
+    text-shadow: none;
+    vertical-align: top;
+    text-shadow: none;
+    line-height: 32px;
+}
+#video-player-section .video-description .episode-title, #video-player-section .video-description .event-title, #live-player-section .video-description .episode-title, #live-player-section .video-description .event-title, #linear-player-section .video-description .episode-title, #linear-player-section .video-description .event-title {
+    font-family: "Flama", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 300;
+    line-height: 32px;
+    font-size: 27px;
+    text-shadow: none;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #ffffff;
+}
+
+
+/**immed signed out player page for retina/smaller screens*/
+.dash-player-app .medium-large .roadblock-card{
+    background-color: #1E1E1E;
+}
+
+.dash-player-app .medium-large .roadblock-card .roadblock-title {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif !important;
+    text-shadow: none !important;
+    font-size: 40px !important;
+    font-weight: 300 !important;
+    width: 100% !important;
+    text-align: center !important;
+    line-height: 50px !important;
+    margin: auto !important;
+    color: #fff !important;
+    margin-top: 100px !important;
+}
+
+.dash-player-app .medium-large .roadblock-card.fvod .roadblock-message {
+    font-weight: 400 !important;
+    line-height: 21px;
+    max-width: 90%;
+    margin-left: 0px;
+    color: #fff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 15px;
+    }
+
+.dash-player-app .medium-large .roadblock-card .roadblock-button{
+        background-color: #2DBD9D;
+    background: -moz-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93));
+    background: -webkit-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -o-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -ms-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 );
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    color: #fff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-shadow: none;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    opacity: 1;
+}
+.dash-player-app .medium-large .roadblock-card .roadblock-button:hover{
+            background-color: #2DBD9D;
+    background: -moz-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93));
+    background: -webkit-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -o-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -ms-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 );
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    color: #fff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-shadow: none;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    opacity: 1;
+}

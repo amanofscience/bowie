@@ -26,10 +26,7 @@ body #wrap #inner-wrap div#banner.stick-top .banner-background {
 	background: none;
 	margin-top:30px;
 }
-/*control bar*/
-.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar-background{
-background:none;
-}
+
 /* player text */
 #video-player-section .video-description .show-title, #video-player-section .video-description .live-title, #video-player-section .video-description .video-game-title, #live-player-section .video-description .show-title, #live-player-section .video-description .live-title, #live-player-section .video-description .video-game-title, #linear-player-section .video-description .show-title, #linear-player-section .video-description .live-title, #linear-player-section .video-description .video-game-title {
   font-family: 'Graphik', Helvetica, Arial, sans-serif;
@@ -40,7 +37,10 @@ background:none;
     vertical-align: top;
     line-height: 32px;
 }
+/************/
 /* pause text*/
+/************/
+/************/
 .dash-player-app .medium-large .content-container .content-player .pause-text .hint {
     color: #D2D2D2;
     font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
@@ -49,28 +49,355 @@ background:none;
 }
 /*series title*/
 .dash-player-app .medium-large .content-container .content-player .pause-text .pause-title .primary-title {
-    color: #ffffff;
-    font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
-    font-weight: 500;
+    line-height: 50px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
     text-shadow: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
 }
 /*episode title*/
 .dash-player-app .medium-large .content-container .content-player .pause-text .pause-title .secondary-title{
-	font-family: "graphik", Helvetica, Arial, Verdana, sans-serif;
+	 line-height: 50px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-shadow: none;
+    color: #AEB4BF;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
+}
+.dash-player-app .medium-large .content-container .content-player .pause-text .hint {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-shadow: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-style: normal;
+}
+/**minutes left*/
+.dash-player-app .medium-large .content-container .content-player .pause-text .remain-time {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    text-shadow: none;
+    width: 470px;
+    font-size: 18px;
+    color: #fff;
+    }
+/**social on pause*/
+.dash-player-app .medium-large .share-toast .share-toast-background{
+	border: none;
+    background: none;
+    box-shadow: none;
+}
+.dash-player-app .medium-large .share-toast .facebook-button{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+    background-position: -4772px 0;
+}
+.dash-player-app .medium-large .share-toast .facebook-button:hover{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+    background-position: -4722px 0;
+}
+.dash-player-app .medium-large .share-toast .twitter-button{
+	background-image: url(http://localhost:8888/bowie/images/player.png);
+    background-position: -5664px 0;
+    width: 33px;
+}
+.dash-player-app .medium-large .share-toast .twitter-button:hover{
+	background-image: url(http://localhost:8888/bowie/images/player.png);
+	background-position: -5614px 0;
+	width: 33px;
 }
 
 
+
+/************/
+/************/
+/*control bar*/
+/************/
+/************/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar-background{
+	background:none;
+    box-shadow: none;
+    border-bottom: none;
+}
+/*tooltips*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .tool-tips{
+    font-weight: 300;
+    color: #FFFFFF;
+    cursor: default;
+    text-transform: capitalize;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+/*play icon*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .play-pause-button.paused {
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .play-pause-button.paused:hover{
+	background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+/*pause icon*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .play-pause-button.playing {
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .play-pause-button.playing:hover {
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+/*rewind icon*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .rewind-button{
+	background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .rewind-button:hover{
+	background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+/*next icon*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .next-video-button{
+	background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .next-video-button:hover{
+	background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+
+/*up next box*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .up-next-container .up-next-panel .up-next-panel-background{
+    box-shadow: none;
+    border: none;
+    border-radius: 0px;
+    background: rgba(30, 30, 30, 0.5);
+}
+/*up next title*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .up-next-container .up-next-panel .video-list-slider .slider-container .slider-title {
+    text-shadow: none;
+    font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+/*up next series titles*/
+.dash-player-app .medium-large .flexslider .slides > li .video-slide-item .title-container .show-name{
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-shadow: none;
+    font-weight: 500;
+}
+.dash-player-app .medium-large .flexslider .slides > li .video-slide-item .title-container .episode-title{
+        font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-shadow: none;
+    font-weight: 500;
+}
+/*up next series subtitles*/
+.dash-player-app .medium-large .flexslider .slides > li .video-slide-item .title-container .subtitle {
+    color: #ffffff;
+    font-weight: 400;
+}
+/*play hover button*/
+.dash-player-app .medium-large .flexslider .slides > li .video-slide-item:hover .play-btn{
+    background-position: -383px 0;
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+/*up next nav arrows*/
+.dash-player-app .medium-large .flex-direction-nav .flex-prev{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .flex-direction-nav .flex-prev:hover{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+
+.dash-player-app .medium-large .flex-direction-nav .flex-next{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .flex-direction-nav .flex-next:hover{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+
+/*time tracker*/
+/*played*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .progress-bar-tracker .progress-bar-played{
+	top:19px;
+	height:3px;
+	background-color:#2DBD9D;
+}
+/*total*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .progress-bar-tracker .progress-bar-total{
+	top:19px;
+	height:3px;
+	background-color: rgba(236,236,236,0.3);
+}
+
+/*thumbnail on tracker*/
+/*thumbnail marker*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .progress-bar-tracker .progress-bar-total .thumbnail-marker{
+    bottom: -4px;
+    left: 0px;
+    width: 3px;
+    height: 13px;
+    background-color: white;
+    border-radius: 0px;
+    cursor: pointer;
+}
+/*thumbnail connector*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .progress-bar-tracker .progress-bar-total .thumbnail-connector{
+	visibility: none
+}
+/*actual thumbnail*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .progress-bar-tracker .progress-bar-total .thumbnail-preview{
+	border-radius:0px;
+	background:none;
+	border:none;
+}
+/*thumbnail text*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .progress-bar-tracker .progress-bar-total .thumbnail-preview .thumbnail-position{
+	top: 90px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+/*time remaining*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .progress-time-container{
+	margin-left:10px;
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .progress-time-container .progress-time{
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .progress-time-container .progress-time:hover{
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #2DBD9D;
+    font-size: 11px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*volume controls*/
+/*high*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .volume-image.high{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .volume-image.med{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .volume-image.low{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+/*active states*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .volume-image.high.active{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .volume-image.med.active{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .volume-image.low.active{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+/*volume pop up*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .volume-bar-container {
+    left: 651px;
+    bottom: -4px;
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .volume-bar-container .volume-panel .volume-bar{
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+/*volume handle*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .volume-bar-container .volume-panel .volume-bar .volume-bar-thumb {
+    height: 3px;
+    width: 15px;
+    left: 6px;
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .volume-bar-container .volume-panel .volume-bar .volume-bar-current{
+    background-color:#2DBD9D;
+/*        background-color: #02ffa6;    
+*/}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .volume-bar-container .volume-panel .volume-bar .volume-bar-total{
+    background-color: rgba(255, 255, 255, 0.3);
+}
 /*player control bar*/
 .dash-player-app .medium .controls-bar-container .controls-bar .main-bar-background{
 	background:none;
 	box-shadow:none;
 	border:none;
 }
-/**time bar*/
-.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .progress-bar-tracker .progress-bar-played{
+
+/*setting*/
+/*setting icon*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .setting-button {
+    background-position: -2944px 0;
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .setting-button.hover {
+    background-position: -3011px 0;
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .setting-panel-container .setting-panel .setting-panel-center{
+    box-shadow: none;
+    border-radius: 0px;
+    background: rgba(30, 30, 30, 0.5);
+    border: none;
+}
+.dash-player-app .medium-large .setting-widget-container{
+    padding-top:4px;
+    padding-bottom:10px;
+}
+/*title*/
+.dash-player-app .medium-large .setting-widget-container .setting-widget-title{
+    font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform:uppercase;
+}
+/*sub titles*/
+.dash-player-app .medium-large .setting-widget-container .setting-widget-content div{
+        font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+}
+/*selected subtitles*/
+.dash-player-app .medium-large .setting-widget-container .setting-widget-content div.checked{
+    color: #72DE93;
+}
+/*buffer*/
+.dash-player-app .medium-large .setting-widget-container.more-settings div.buffer{
+    font-family: "Graphik", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+/*buffer sticks*/
+.dash-player-app .medium-large .setting-widget-container.more-settings div.buffer div.buffer-sticks span.buffer-stick{
+    background-color: #72DE93;
+    box-shadow:none;
+}
+/* setting dividers*/
+.dash-player-app .medium-large .setting-widget-container:not(:last-child) .setting-widget-divider{
+    background: #5E6573;
 }
 
-
+/*full screen*/
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .full-screen-button.enter{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .controls-bar-container .controls-bar .main-bar .full-screen-button.enter:hover{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
 /*now playing highlight**/
 div.tray div.item div.selected-background {
     top: -1px;
