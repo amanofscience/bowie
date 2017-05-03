@@ -174,7 +174,7 @@ div.lightbox #verify-pass-dialog div#result-error {
 }
 .profile .account .referrals-container .guides .invite-text{
       color: #5E6573;
-    font-family: 'Graphik', Helvetica, Arial, sans-serif;   
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
 }
 
 
@@ -199,10 +199,10 @@ div.lightbox #verify-pass-dialog div#result-error {
 /*button placeholder text*/
 .profile .account form#redeem-form label.in-field, .profile .account form#activate-form label.in-field, .profile .account form#plenti-form label.in-field {
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
-
     color: #AEB4BF;
 }
 
+<<<<<<< HEAD
 /*activate and link buttons*/
 .profile .account .input-append-button .button{
       background-color: #2DBD9D;
@@ -654,4 +654,86 @@ div.profilebox #session-invalidation-container .title{
 }
 div.profilebox #session-invalidation-container .details {
     color: #5E6573;
+}
+=======
+div.lightbox div {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+div.lightbox #verify-pass-dialog div.button-container .btn .button {
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+/* Profile */
+
+.profile-list .select-profile, .profile-list .profile, .profile-list .profile .name, .profile-list .add-profile .add-text, .profile-delete-success .delete-message, .profile-selector .subtitle {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+.profile-list .select-profile {
+  text-shadow: none;
+  color: #AEB4BF;
+  font-weight: 400;
+}
+
+.profile-list .add-profile .add-text {
+
+}
+
+.profile-list .profile .name, .profile-list .add-profile {
+  font-weight: 400;
+  color: #5E6573;
+}
+
+div.button-wrap button:hover {
+  opacity: 1;
+}
+
+.profile-list .profile:hover, .profile-list .add-profile:hover {
+  background-color: #2DBD9D;
+}
+
+.profile-delete .delete-message, .profile-delete .profile-name {
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+.profile-delete .profile-name {
+  color: #2DBD9D;
+  font-weight: 400;
+}
+
+.profile-delete .delete-message {
+  color: #5E6573;
+  font-weight: 300;
+}
+
+.profile-delete .delete-profile-button button {
+  box-shadow: inset 0px 0px 0px 1px #AEB4BF;
+  border: none;
+  background: none;
+}
+
+.profile-delete .delete-profile-button button span.text {
+  color: #5E6573;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.profile-delete .delete-profile-button button:hover {
+  box-shadow: inset 0px 0px 0px 1px #5E6573;
+  border: none;
+  background: none;
+}
+
+.profile-delete .delete-profile-button button:active {
+  box-shadow: inset 0px 0px 0px 1px #5E6573;
+  background: none;
+  color: #5E6573;
+}
+
+.profile-delete-success .delete-message {
+  color: #5E6573;
 }
