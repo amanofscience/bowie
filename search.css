@@ -1,0 +1,19 @@
+body #wrap #inner-wrap div#banner .search-extra-header #search-summary #search-title {
+    font-weight: 200;
+    color: #ffffff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+body #wrap #inner-wrap div#banner .search-extra-header #search-summary #search-title #search-title-query {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    }
+ body #wrap #inner-wrap div#banner .search-extra-header #search-bar-divider-wrapper #search-bar-divider {
+    margin-right: 2px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+/**advanced search*/
+
+body #wrap #inner-wrap div#banner .search-extra-header #advanced-search-button a {
+    color: #ffffff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
