@@ -1,0 +1,84 @@
+.tray h3{
+	font-weight: 300;
+    color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    letter-spacing: -1px;
+    text-shadow: none !important;
+    outline: none !important;
+}
+.tray h3:hover{
+	font-weight: 300;
+    color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    letter-spacing: -1px;
+    text-shadow: none !important;
+    outline: none !important;
+}
+.tray h3 div.dropdown div.toggle{
+	font-weight: 300;
+    color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    letter-spacing: -1px;
+    text-shadow: none !important;
+    outline: none !important;
+}
+div.dropdown .toggle:hover{
+	color:#2DBD9D;
+}
+.tray h3 div.dropdown div.toggle:hover{
+		color:#2DBD9D;
+}
+
+/*indivd tray*/
+div.grid div.item.size-1x1.interest-overlay div.metadata-area div.recommend-reason, div.tray div.item.size-1x1.interest-overlay div.metadata-area div.recommend-reason {
+    border-bottom: 1px solid #ECEDF2;
+    font-size: 13px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #5E6573;
+    line-height: 22px;
+}
+div.grid div.item.size-1x1.interest-overlay div.metadata-area div.recommend-reason span.bold, div.tray div.item.size-1x1.interest-overlay div.metadata-area div.recommend-reason span.bold{
+	font-weight:500;
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    color: #5E6573;
+}
+/*are you in/ yes/no */
+div.grid div.item.size-1x1.interest-overlay div.metadata-area div.recommend-feedback div.tip, div.tray div.item.size-1x1.interest-overlay div.metadata-area div.recommend-feedback div.tip{
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+	color: #5E6573;
+}
+div.grid div.item.size-1x1.interest-overlay div.metadata-area div.recommend-feedback div.feedback-btn div.choice, div.tray div.item.size-1x1.interest-overlay div.metadata-area div.recommend-feedback div.feedback-btn div.choice{
+	font-weight:500;
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    color: #5E6573;
+}
+div.grid div.item.size-1x1.interest-overlay div.metadata-area div.recommend-feedback div.feedback-btn div.choice:hover, div.tray div.item.size-1x1.interest-overlay div.metadata-area div.recommend-feedback div.feedback-btn div.choice:hover{
+	color:#2DBD9D;
+}
+
+/*"thank you for your feedback"*/
+div.tray div.item.size-1x1.interest-overlay div.metadata-area div.recommend-feedback{
+		font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    color: #5E6573;
+}
+
+/*tray dropdown*/
+.tray h3 div.dropdown .drop-wrapper .drop div{
+	font-weight:400;
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	color: #5E6573;
+	line-height: 23px;
+	font-size:13px;
+}
+

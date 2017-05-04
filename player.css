@@ -19,9 +19,236 @@ body #wrap #inner-wrap div#banner.stick-top .banner-background {
     color: #d72323;
     
     }
+    #video-player-section .video-description-container a, #live-player-section .video-description-container a, #linear-player-section .video-description-container a{
+        margin-right:0px;
+    }
 
 
-/*player**/
+/*video description container non retina*/
+#video-player-section .video-description div.functional-bar .details-toggle{
+    background-image: url(http://localhost:8888/bowie/images/player_details.png);
+}
+#video-player-section .video-description div.functional-bar .details-toggle:hover{
+    background-image: url(http://localhost:8888/bowie/images/player_details.png);
+}
+#video-player-section .video-description div.functional-bar .details-toggle.selected{
+    background-image: url(http://localhost:8888/bowie/images/player_details.png);
+}
+#video-player-section .video-description div.video-functional-area div.video-details div.description{
+    color: #AEB4BF;
+}
+#video-player-section .video-description div.video-functional-area div.video-details div.info{
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #AEB4BF;
+}
+#video-player-section .video-description div.video-functional-area div.video-details div.copy-right-details{
+ color: #AEB4BF;   
+}
+
+
+/*comment*/
+#video-player-section .video-description div.functional-bar .comment{
+    background-image: url(http://localhost:8888/bowie/images/player_social.png);
+}
+#video-player-section .video-description div.functional-bar .comment-container:hover .comment{    
+    background-image: url(http://localhost:8888/bowie/images/player_social.png);
+}
+/*twitter*/
+#video-player-section .video-description div.functional-bar .twitter{
+    background-image: url(http://localhost:8888/bowie/images/player_social.png);
+    width: 72px;   
+}
+#video-player-section .video-description div.functional-bar .twitter:hover{
+    background-image: url(http://localhost:8888/bowie/images/player_social.png);
+    width: 72px;       
+}
+
+/*facebook*/
+#video-player-section .video-description div.functional-bar .facebook{
+    background-image: url(http://localhost:8888/bowie/images/player_social.png);
+}
+#video-player-section .video-description div.functional-bar .facebook:hover{
+    background-image: url(http://localhost:8888/bowie/images/player_social.png);    
+}
+/*more*/
+#video-player-section .video-description div.functional-bar .more{
+    background-image: url(http://localhost:8888/bowie/images/player_details.png);
+}
+#video-player-section .video-description div.functional-bar .more:hover{
+    background-image: url(http://localhost:8888/bowie/images/player_details.png);
+}
+
+/*share send email fields*/
+#video-player-section .video-description div.video-functional-area div.more-area textarea#email-addresses{
+    background-image:url(http://localhost:8888/bowie/images/player_add.png);
+}
+#video-player-section .video-description div.video-functional-area div.more-area span.email-label{
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+/*text field*/
+#video-player-section .video-description div.video-functional-area div.more-area textarea#email-messages{
+    background-image:url(http://localhost:8888/bowie/images/player_add.png);
+}
+/*submit button*/
+#video-player-section .video-description div.video-functional-area div.more-area input.email-submit-button{
+    background-image: url(http://localhost:8888/bowie/images/player_details.png);
+}
+
+
+/**error card message*/
+.dash-player-app .medium-large .button{
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    color: #fff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    text-shadow: none;
+    border-radius:0px;
+    border:none;
+    height: 55px;
+    line-height: 55px;
+}
+.dash-player-app .medium-large .button.gray{
+    border: 1px solid #fff;
+    background: none;
+    box-shadow: none;
+}
+.dash-player-app .medium-large .button.green {
+    color: #FFFFFF;
+    background-color: #2DBD9D;
+    background: -moz-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2DBD9D), color-stop(100%, #72DE93));
+    background: -webkit-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -o-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: -ms-linear-gradient(180deg, #72DE93 0%, #2DBD9D 100%);
+    background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 );
+    }
+
+/**********/
+/**********/
+/**********/
+/*end card/ up next */
+/**********/
+/**********/
+/**********/
+.dash-player-app .medium-large .end-card .slider-container .flexslider .slides > li .title .show-name{
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+}
+.dash-player-app .medium-large .end-card .slider-container .flexslider .slides > li .title .episode-title{
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+}
+.dash-player-app .medium-large .end-card .slider-container .flexslider .slides > li .subtitle {
+    font-weight: 500 !important;
+}
+/*up next*/
+.dash-player-app .medium-large .end-card .slider-container .slider-title {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+.dash-player-app .medium-large .end-card .play-next-image-container .image{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .end-card .play-pause-next-operate .pause-countdown-container .pause-countdown{
+   font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-shadow:none;
+}
+/*up next facebook and twitter box*/
+.dash-player-app .medium-large .end-card .replay-panel .replay-panel-background {
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+    background: none;
+    background-color: rgba(30,30,30,0.5);
+}
+/*series image*/
+.dash-player-app .medium-large .end-card .replay-panel .thumbnail-container, .dash-player-app .medium-large .end-card .replay-panel .peephole-container{
+    border:none;
+}
+/*watch again*/
+.dash-player-app .medium-large .end-card .replay-panel .replay-button, .dash-player-app .medium-large .end-card .replay-panel .restore-button{
+    opacity:1;
+}
+.dash-player-app .medium-large .end-card .replay-panel .replay-icon{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .end-card .replay-panel .restore-icon{
+   background-image: url(http://localhost:8888/bowie/images/player.png)
+}
+.dash-player-app .medium-large .end-card .replay-panel .replay-lable{
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+/*facebook icon*/
+.dash-player-app .medium-large .end-card .replay-panel .share-button-container .facebook-button .facebook-icon{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+    background-position: -4772px 0;
+}
+.dash-player-app .medium-large .end-card .replay-panel .share-button-container .facebook-button:hover .facebook-icon{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+}
+.dash-player-app .medium-large .end-card .replay-panel .share-button-container .facebook-button .lable{
+    font-weight:500;
+    text-transform:uppercase;
+}
+.dash-player-app .medium-large .end-card .replay-panel .share-button-container .facebook-button:hover .lable{
+    color:#2DBD9D;
+}
+.dash-player-app .medium-large .end-card .replay-panel .share-button-container .twitter-button .twitter-icon{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+    background-position: -5670px 0;
+    height: 48px;
+    width: 35px;
+}
+.dash-player-app .medium-large .end-card .replay-panel .share-button-container .twitter-button:hover .twitter-icon{
+    background-image: url(http://localhost:8888/bowie/images/player.png);
+    background-position: -5670px 0;
+    height: 48px;
+    width: 35px;
+}
+.dash-player-app .medium-large .end-card .replay-panel .share-button-container .twitter-button .lable{
+        font-weight:500;
+    text-transform:uppercase;
+}
+.dash-player-app .medium-large .end-card .replay-panel .share-button-container .twitter-button:hover .lable{
+    color:#2DBD9D;
+}
+.dash-player-app .medium-large .end-card .replay-panel .share-button-container .share-button-lable, .dash-player-app .medium-large .end-card .replay-panel .share-button-container .facebook-button .lable, .dash-player-app .medium-large .end-card .replay-panel .share-button-container .twitter-button .lable{
+/*    background-image: url(http://localhost:8888/bowie/images/player.png)
+*/
+}
+
+.dash-player-app .medium-large .controls-bar-container .controls-bar{
+
+}
+/**********/
+/**********/
+/**********/
+/*actual player**/
+/**********/
+/**********/
+/**********/
 #video-player-section .large-player>div #player-container.with-background, #video-player-section .large-player>div #live-player-container.with-background, #video-player-section .large-player>div #linear-player-container.with-background, #live-player-section .large-player>div #player-container.with-background, #live-player-section .large-player>div #live-player-container.with-background, #live-player-section .large-player>div #linear-player-container.with-background, #linear-player-section .large-player>div #player-container.with-background, #linear-player-section .large-player>div #live-player-container.with-background, #linear-player-section .large-player>div #linear-player-container.with-background{
 	background: none;
 	margin-top:30px;
@@ -424,84 +651,7 @@ div.tray div.item.marked div.selected-background div.now-playing{
 	font-weight:500;
 	letter-spacing: 0.5px;
 }
-/*up next*/
-.dash-player-app .medium-large .end-card .slider-container .slider-title {
-    font-family: 'Graphik', Helvetica, Arial, sans-serif;
-    color: #fff;
-    font-style: normal;
-    font-size: 18px;
-    font-weight: 400;
-    text-shadow:none;
-}
-.dash-player-app .medium-large .end-card .play-next-image-container .image{
-    background-image: url(http://localhost:8888/bowie/images/player.png);
-}
-.dash-player-app .medium-large .end-card .play-pause-next-operate .pause-countdown-container .pause-countdown{
-   font-family: 'Graphik', Helvetica, Arial, sans-serif;
-    color: #fff;
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    text-shadow:none;
-}
-/*up next facebook and twitter box*/
-.dash-player-app .medium-large .end-card .replay-panel .replay-panel-background {
-    border: none;
-    box-shadow: none;
-    border-radius: 0px;
-    background: none;
-    background: rgb(0, 0, 0);
-    background: rgba(30, 30, 30, 0.5);
-}
-/*series image*/
-.dash-player-app .medium-large .end-card .replay-panel .thumbnail-container, .dash-player-app .medium-large .end-card .replay-panel .peephole-container{
-    border:none;
-}
-/*watch again*/
-.dash-player-app .medium-large .end-card .replay-panel .replay-button, .dash-player-app .medium-large .end-card .replay-panel .restore-button{
-    opacity:1;
-}
-.dash-player-app .medium-large .end-card .replay-panel .replay-icon{
-    background-image: url(http://localhost:8888/bowie/images/player.png);
-}
-.dash-player-app .medium-large .end-card .replay-panel .restore-icon{
-   background-image: url(http://localhost:8888/bowie/images/player.png)
-}
-.dash-player-app .medium-large .end-card .replay-panel .replay-lable{
-    font-family: 'Graphik', Helvetica, Arial, sans-serif;
-    color: #fff;
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-}
-/*facebook icon*/
-.dash-player-app .medium-large .end-card .replay-panel .share-button-container .facebook-button .facebook-icon{
-    background-image: url(http://localhost:8888/bowie/images/player.png)
-}
-.dash-player-app .medium-large .end-card .replay-panel .share-button-container .facebook-button:hover .facebook-icon{
-    background-image: url(http://localhost:8888/bowie/images/player.png)
-}
-.dash-player-app .medium-large .end-card .replay-panel .share-button-container .share-button-lable, .dash-player-app .medium-large .end-card .replay-panel .share-button-container .facebook-button .lable, .dash-player-app .medium-large .end-card .replay-panel .share-button-container .twitter-button .lable{
-    font-weight:400;
-}
-.dash-player-app .medium-large .end-card .replay-panel .share-button-container .twitter-button .twitter-icon{
-    background-image: url(http://localhost:8888/bowie/images/player.png)
-}
-.dash-player-app .medium-large .end-card .replay-panel .share-button-container .twitter-button .twitter-icon{
-    background-image: url(http://localhost:8888/bowie/images/player.png)
-}
-.dash-player-app .medium-large .end-card .replay-panel .share-button-container .share-button-lable, .dash-player-app .medium-large .end-card .replay-panel .share-button-container .facebook-button .lable, .dash-player-app .medium-large .end-card .replay-panel .share-button-container .twitter-button .lable{
-/*    background-image: url(http://localhost:8888/bowie/images/player.png)
-*/
-}
 
-.dash-player-app .medium-large .controls-bar-container .controls-bar{
-
-}
 
 /*****************************************/
 /*****************************************/
@@ -1321,11 +1471,15 @@ div.tray div.item.marked div.selected-background div.now-playing{
 @media (-webkit-min-device-pixel-ratio: 2.0), not all, not all {
 /*details*/
 #video-player-section .video-description div.functional-bar .details-toggle, #live-player-section .video-description div.functional-bar .details-toggle, #linear-player-section .video-description div.functional-bar .details-toggle{
-	background-image: url(http://localhost:8888/bowie/images/playerPage_details_retina.png);
+	background-image: url(http://localhost:8888/bowie/images/player_details_retina.png);
 	height: 21px;
     width: 72px;
 }
-
+#video-player-section .video-description div.functional-bar .details-toggle:hover, #live-player-section .video-description div.functional-bar .details-toggle:hover, #linear-player-section .video-description div.functional-bar .details-toggle:hover{
+    background-image: url(http://localhost:8888/bowie/images/player_details_retina.png);
+    height: 21px;
+    width: 72px;
+}
 /*comments on player retina page*/
 #video-player-section .video-description div.functional-bar .comment, #live-player-section .video-description div.functional-bar .comment, #linear-player-section .video-description div.functional-bar .comment {
     -moz-background-size: 180px 429px;
@@ -1346,18 +1500,28 @@ div.tray div.item.marked div.selected-background div.now-playing{
 	/*twitter*/
 #video-player-section .video-description div.functional-bar .twitter, #live-player-section .video-description div.functional-bar .twitter, #linear-player-section .video-description div.functional-bar .twitter{
 	background-image: url(http://localhost:8888/bowie/images/playerPage.png);
-	}
-	#video-player-section .video-description div.functional-bar .twitter:hover, #live-player-section .video-description div.functional-bar .twitter:hover, #linear-player-section .video-description div.functional-bar .twitter:hover{
-			background-image: url(http://localhost:8888/bowie/images/playerPage.png);
-	}
+    width: 71px;
+}
+
+#video-player-section .video-description div.functional-bar .twitter:hover, #live-player-section .video-description div.functional-bar .twitter:hover, #linear-player-section .video-description div.functional-bar .twitter:hover{
+	background-image: url(http://localhost:8888/bowie/images/playerPage.png);
+    width: 71px;
+}
 /*facebook*/
 #video-player-section .video-description div.functional-bar .facebook, #live-player-section .video-description div.functional-bar .facebook, #linear-player-section .video-description div.functional-bar .facebook{
 	background-image: url(http://localhost:8888/bowie/images/playerPage.png);
-
+    width: 84px;
 	}
 	#video-player-section .video-description div.functional-bar .facebook:hover, #live-player-section .video-description div.functional-bar .facebook:hover, #linear-player-section .video-description div.functional-bar .facebook:hover{
 	background-image: url(http://localhost:8888/bowie/images/playerPage.png);
-
+    width: 84px;
 	}
+    /*share*/
+    #video-player-section .video-description div.functional-bar .more, #live-player-section .video-description div.functional-bar .more, #linear-player-section .video-description div.functional-bar .more{
+        background-image: url(http://localhost:8888/bowie/images/player_details_retina.png);
+    }
+    #video-player-section .video-description div.functional-bar .more:hover, #live-player-section .video-description div.functional-bar .more:hover, #linear-player-section .video-description div.functional-bar .more:hover{
+        background-image: url(http://localhost:8888/bowie/images/player_details_retina.png);
+    }
 }
 
