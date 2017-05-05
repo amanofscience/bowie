@@ -59,6 +59,13 @@ div.lightbox #verify-pass-dialog input[type="password"]{
     background: -ms-linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
     background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 );
+    border-radius:0px;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    color: #fff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
 }
 .button.green:hover, .button.green.zeroclipboard-is-hover{
 	border: 0px;
@@ -70,6 +77,13 @@ div.lightbox #verify-pass-dialog input[type="password"]{
     background: -ms-linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
     background: linear-gradient(270deg, #72DE93 0%, #2DBD9D 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DBD9D', endColorstr='#72DE93',GradientType=1 );
+    border-radius:0px;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    color: #fff;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
 }
 .profile .account .button.green{
 	color:#fff;
@@ -314,7 +328,7 @@ div.profilebox #bill-history .button-container .help-info a {
     background-color: #fff;
     border-radius: 0px;
     border: 1px solid #AEB4BF;
-    color: #5E6573 !important;
+    color: #5E6573;
 }
 .button.grey:hover{
     border:1px solid #5E6573;
@@ -327,10 +341,10 @@ div.profilebox #bill-history .button-container .help-info a {
 }
 div.profilebox .button {
     font-weight: 600;
-    font-size: 13px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: .3px;
-    color: #fff;
+    color: #5E6573;
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
     }
 /**page number color***/

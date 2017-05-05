@@ -1,0 +1,99 @@
+.profile-history .remove-all-link::after{
+	content: "Remove All Videos";
+    text-transform: uppercase;
+    border: 1px solid #AEB4BF;
+    font-size: 11px;
+    padding: 7px 16px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #5E6573;
+    font-weight: 500;
+}
+img.remove-all.history-button.image-btn{
+	display:none;
+}
+
+/*page number*/
+.profile-history .page ul li input{
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	color:#5E6573;
+	font-size:12px;
+	font-weight:400;
+	border: 1px solid #AEB4BF;
+}
+.profile-history .page ul li{
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	color:#5E6573;
+	font-size:12px;
+	font-weight:400;	
+}
+.profile-history .page ul li.total a{
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	color:#5E6573;
+	font-size:12px;
+	font-weight:400;		
+}
+
+/*last viewed*/
+.profile-history .history-list table.vt tr.rh td.active{
+	background-color:#fff;
+}
+.profile-history .history-list table.vt tr.rh td.rh-c0 div a{
+	color: #1E1E1E;
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	font-weight:500;
+	font-size:14px;
+}
+.profile-history .history-list table.vt tr.rh td.rh-c1{
+	color: #1E1E1E;
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	font-weight:500;
+	font-size:14px;	
+}
+/*borders*/
+.profile-history .history-list table.vt tr.rh td{
+    border-top: solid 1px #ECEDF2;
+    border-bottom: solid 1px #ECEDF2;
+    	color: #1E1E1E;
+	font-family: 'Graphik', Helvetica, Arial, sans-serif;
+	font-weight:500;
+	font-size:14px;	
+}
+
+/*day laters*/
+
+.profile-history .history-list table.vt tr.r td {
+    border-bottom: solid 1px #eee;
+    padding: 5px 8px;
+    line-height: 18px;
+    color: #5E6573;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*series title*/
+.profile-history .history-list table.vt tr.r td.c1 .info-container .beaconid {
+    color: #5E6573;
+    font-size: 14px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+/*season stuff*/
+.profile-history .history-list table.vt tr.r td.c1 .info-container .video-info {
+    font-size: 11px;
+    /* color: #444; */
+    /* line-height: 1.8; */
+    font-size: 12px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.profile-history .history-list table.vt tr.r td.c2 .check-icon {
+    /* line-height: 16px; */
+    /* margin: 0 auto; */
+    /* clear: both; */
+    color: #5E6573;
+    font-size: 14px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}

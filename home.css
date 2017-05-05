@@ -17,13 +17,13 @@ body.large #tool-item-container .tool-bar {
     background-color: #ECEDF2;
     height: 60px;
   }
-
 #tool-item-container div.tool-bar .text {
     font-family: 'Graphik', Helvetica, Arial, sans-serif;
     text-shadow: none;
     font-weight: 400;
     font-size: 12px;
     padding-top:20px;
+    color:#5E6573;
 
     }
     #tool-item-container div.tool-bar .follow-icons{
