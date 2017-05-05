@@ -3,6 +3,7 @@
 /*  Popular page  */
 body #wrap #inner-wrap div#banner.has-extra-header.show-extra-header.semitransparent .extra-header-wrapper {
     background-image: linear-gradient(to left, #92ED8D 0%, #64D98B 42.64%, #05AAA3 100%);
+    border-bottom: 1px solid #f5f5f8;
 }
 .extra-header-wrapper .filter-bar .title, .extra-header-wrapper .filter-bar .title a {
     margin-top: 10px;

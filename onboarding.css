@@ -7,16 +7,29 @@
 }
 .onboarding-header {
     background-color: rgba(255,255,255,0.94);
+    background-image: none;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to left, #92ED8D 0%, #64D98B 42.64%, #05AAA3 100%);
+    /* border-bottom-width: 30px; */
+    border-image-slice: 1;
 }
 
+/*logo*/
+.green-logo{
+  background-image: url(http://localhost:8888/bowie/images/logo_62.png);
+}
 .onboarding-header .notification-section span {
   color: #5E6573;
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: -0.5px;
 }
 
 .dialog-canvas .dialog .dialog-expected {
   box-sizing: border-box;
   border: none;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   font-weight: 600;
   background-color: #2DBD9D;
   background-image: linear-gradient(-225deg, #72DE93 0%, #2DBD9D 100%), linear-gradient(90deg, #72DE93 0%, #2DBD9D 100%);
@@ -88,7 +101,7 @@
 
 .onboarding-tile .overlay {
   background-image: linear-gradient(-225deg, #72DE93 0%, #2DBD9D 100%), linear-gradient(90deg, #72DE93 0%, #2DBD9D 100%);
-  opacity: 0.72;
+  opacity: 0.60;
 }
 
 .dialog-canvas {
@@ -110,18 +123,57 @@
 }
 
 .dialog-canvas .dialog .dialog-title {
-  font-weight: 300;
+  font-weight: 200;
+  color:#fff;
+}
+.dialog-canvas .dialog .dialog-text{
+  color:#fff;
 }
 
 .onboarding-tile .texts .show-name-text {
   color: rgba(255, 255, 255, 0.7);
   border-right: .1vw solid rgba(255, 255, 255, 0.26);
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .onboarding-tile .texts .taste-name {
   font-weight: 400;
+      font-weight: 300;
+    font-size: 28px;
 }
 
+/*arrow*/
+.arrow-btn{
+  border: 2px solid #5E6573; 
+}
+
+/**/
 .selected-tastes-wrapper {
-  background-color: rgba(255,255,255,0.94);
+  background-color: rgba(255,255,255,0.6);
+}
+
+/*loading rec page*/
+.dialog-canvas .dialog .dialog-subtitle, .dialog-canvas .dialog .dialog-text{
+  color:#fff;
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-size:18px; 
+  font-weight:400;  
+}
+.dialog-canvas .dialog .icon-text{
+   color:#fff;
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+  font-size:16px;
+  font-weight:400;   
+}
+
+/*circle*/
+.circle-rail{    
+    border: 3px solid #5E6573;
+  }
+.circle-progress .pie{
+ border: 3px solid #72DE93; 
+}
+.circle-final-wrapper .circle-final{
+   border: 3px solid #72DE93; 
 }

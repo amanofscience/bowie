@@ -246,6 +246,7 @@
     vertical-align: top;
     text-shadow: none;
     line-height: 32px;
+    padding-left: 20px;
 }
 #video-player-section .video-description .episode-title, #video-player-section .video-description .event-title, #live-player-section .video-description .episode-title, #live-player-section .video-description .event-title, #linear-player-section .video-description .episode-title, #linear-player-section .video-description .event-title {
     font-family: "Flama", Helvetica, Arial, Verdana, sans-serif;
